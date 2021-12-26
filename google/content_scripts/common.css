@@ -15,6 +15,8 @@
     --highlightItem: #1C2732;
 }
 
+/* test comment */
+
 body {
     background: var(--wallPaper) !important;
     color: white !important;
