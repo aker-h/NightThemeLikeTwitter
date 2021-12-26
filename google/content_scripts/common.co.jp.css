@@ -1,0 +1,262 @@
+:root {  
+    --lightBlue:#1D9BF0;
+
+    --wallPaper: #15202B;
+    --subText:#8899A6;
+    --linkedText: var(--lightBlue);
+    --visitedText: #F91880;
+    --blackText: #0F1419;
+    --grayButton: #eff3f4;
+    --borderLine: #38444D;
+    --card: #192734;
+    --searchField: #253341;
+    --highlightItem: #1C2732;
+}
+
+/*test comment*/
+
+body {
+    background: var(--wallPaper) !important;
+    color: white !important;
+}
+
+a {
+    color: var(--linkedText) !important
+    /*text-decoration: none;*/
+}
+
+a.MV3Tnb {
+    /*Googleについて、　ストア*/
+    color: var(--subText) !important;
+    /*display: inline-block;
+    padding: 5px;
+    margin: 0 5px;*/    
+}
+
+a.gb_f, span.gb_f {
+    /*Gmail、画像*/
+    color: var(--subText) !important;
+    /*text-decoration: none;*/
+}
+
+.gb_pa svg, .gb_Ac svg, .gb_Wc .gb_Zd, .gb_Mc .gb_Zd {
+    /*Googleアプリボタン*/
+    color: var(--subText) !important;
+    /*opacity: 1;*/
+}
+
+#gb {
+    background-color: transparent !important;
+}
+
+/*Googleの大きいロゴを変更*/
+.lnXdpd {
+    /*元のロゴを非表示*/
+    display: none;
+    /*max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;*/
+}
+
+.o3j99.LLD4me.yr19Zb.LS8OJ {
+    /*ロゴを差し込む*/
+    background: var(--lightBlue) !important;
+    mask-image: url("https://www.google.co.jp/intl/en_ALL/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png") !important;
+    mask-size: 272px 92px !important;
+    mask-repeat: no-repeat !important;
+    mask-position: bottom center !important;
+        -webkit-mask-image: url("https://www.google.co.jp/intl/en_ALL/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png") !important;      
+        -webkit-mask-size: 272px 92px !important;
+        -webkit-mask-repeat: no-repeat !important;
+        -webkit-mask-position: bottom center !important;
+}
+
+.lJ9FBc input[type="submit"], .gbqfba {
+    /*Google検索、I`m Feeling Luck etc...*/
+    background-color: var(--grayButton) !important;
+    border: 1px solid var(--grayButton) !important;
+    color: var(--blackText) !important;
+    /*border-radius: 4px;    
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;*/
+}
+
+/*検索欄*/
+.RNNXgb {
+    /*背景*/
+    background: var(--searchField) !important;
+    border: 1px solid transparent !important;
+    /*display: flex;
+    z-index: 3;
+    height: 44px;    
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;*/
+}
+
+.emcav .RNNXgb {
+    /*アクティブのとき枠線を追加*/
+    border: 1px solid var(--lightBlue) !important;
+    /*border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);*/
+}
+
+.QCzoEc {
+    /*虫眼鏡*/
+    color: var(--subText) !important;
+    /*margin-top: 3px;    
+    height: 20px;
+    width: 20px;*/
+}
+
+.gLFyf {
+    /*入力文字*/
+    color: white !important;
+    /*background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;    
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;*/
+}
+
+.ExCKkf {
+    /*消去ボタン*/
+    color: var(--subText) !important;
+    /*height: 100%;    
+    vertical-align: middle;
+    outline: none;*/
+}
+
+.ACRAdd {
+    /*縦線*/
+    border-left: 1px solid var(--borderLine) !important;
+    /*height: 65%;*/
+}
+
+/*検索候補*/
+.xtSCL {
+    border-top: 1px solid var(--borderLine) !important;
+    /*margin: 0 20px 0 14px;
+    padding-bottom: 4px;*/
+}
+
+.aajZCb {
+    border: 1px solid var(--lightBlue) !important;
+    border-top: 1px solid transparent !important;
+    background: var(--searchField) !important;
+    /*display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
+    border: 0;
+    padding-bottom: 4px;*/
+}
+
+
+.wM6W7d {
+    color: white !important;
+    /*display: flex;
+    font-size: 16px;    
+    flex: auto;
+    align-items: center;
+    word-break: break-word;
+    padding-right: 8px;*/
+}
+
+.WggQGd {
+    color: var(--visitedText) !important;
+}
+
+.sb27 {
+    /*時計マーク*/
+    background: var(--subText) !important;
+    mask-image: url(/images/searchbox/desktop_searchbox_sprites318_hr.webp);
+    -webkit-mask-image: url(/images/searchbox/desktop_searchbox_sprites318_hr.webp);
+    mask-repeat: no-repeat !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position-y: -21px !important;
+    mask-size: 20px;
+    -webkit-mask-size: 20px;
+    /*background-size: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    height: 20px;
+    width: 20px;*/
+}
+
+.sb43 {
+    /*虫眼鏡マーク*/
+    background: var(--subText) !important;
+    mask-image: url(/images/searchbox/desktop_searchbox_sprites318_hr.webp) !important;
+    mask-size: 20px !important;
+    -webkit-mask-image: url(/images/searchbox/desktop_searchbox_sprites318_hr.webp) !important;
+    -webkit-mask-size: 20px !important;
+    /*background-size: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    height: 20px;
+    width: 20px;*/
+}
+
+.JCHpcb {
+    /*削除*/
+    color: var(--subText) !important;
+    /*font: 13px arial,sans-serif;
+    cursor: pointer;
+    align-self: center;*/
+}
+
+.sbhl {
+    background: var(--highlightItem) !important;
+}
+
+/*下のラベル*/
+.c93Gbe {
+    background: var(--card) !important;
+}
+
+.uU7dJb {
+    /*上段*/
+    border-bottom: 1px solid var(--borderLine) !important;    
+    color: var(--subText) !important;
+    /*padding: 15px 30px;
+    font-size: 15px;*/
+}
+
+a.pHiOh {
+    /*下段*/
+    /*広告、ビジネス、検索の仕組み、プライバシー、規約*/
+    color: var(--subText) !important;
+}
+
+a.EzVRq, button.EzVRq {
+    /*下段*/
+    /*設定*/
+    color: var(--subText) !important;
+}

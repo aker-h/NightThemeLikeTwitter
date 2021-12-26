@@ -1,0 +1,49 @@
+{
+    "name": "NightThemeLikeTwitter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "TwitterのナイトモードをGoogleなどにも適用。",
+
+    "icons": {},
+
+    "permissions": [],    
+
+    "content_scripts": [{
+        "matches": [
+            "https://*.google.com/*",
+            "https://*.google.co.jp/*"
+        ],
+        "js":[
+            "js/jquery-3.6.0.min.js",
+            "google/content_scripts/waitForKeyElements.js",
+            "google/content_scripts/commonLib.js",
+            "google/content_scripts/commonOnload.js"
+        ],
+        "css": [            
+            "google/content_scripts/common.css"
+        ]
+    },{
+        "matches": [
+            "https://*.google.com/search*",
+            "https://*.google.co.jp/search*"
+        ],
+        "all_frames": true,
+        "js":[
+            "js/jquery-3.6.0.min.js",
+            "google/content_scripts/searchLib.js",
+            "google/content_scripts/searchOnload.js"
+        ],
+        "css": [
+            "google/content_scripts/search.css"
+        ]
+    }],
+
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+
+    "web_accessible_resources": [{
+        "resources": ["img/*.png"],
+        "matches": ["<all_urls>"]
+    }]
+}
