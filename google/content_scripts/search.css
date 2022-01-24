@@ -230,6 +230,10 @@ span.DASDFc {
     position: relative; */
 }
 
+.LC20lb.MBeuO.DKV0Md {
+    color: var(--linkedText) !important;
+}
+
 .hhB0V {
     color: var(--linkedText) !important;
     /* cursor: pointer;
@@ -290,6 +294,66 @@ html:not(.zAoYTe) [href], html:not(.zAoYTe) button, html:not(.zAoYTe) iframe, ht
     margin: 0;
     padding: 0;
     white-space: nowrap; */
+}
+
+.MaH2Hf {
+    color: var(--subText) !important;
+    /* min-height: 24px;
+    margin-top: -4px; */
+}
+
+.zaokob {
+    background: var(--wallPaper) !important;
+    border-radius: 8px !important;
+    border: 1px solid var(--lightBlue) !important;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3; */
+}
+
+.tw-lp-search {
+    background: var(--searchField) !important;
+    background-size: 24px 24px;
+    border: 1px solid var(--borderLine) !important;
+    /* border-radius: 8px;
+    box-sizing: border-box;
+    color: #202124;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 40px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: calc(100% - 48px - 8px); */
+}
+
+.language_list_languages.tw-ll-top::after {
+    background: linear-gradient(to bottom,rgba(255,255,255,0),var(--searchField)) !important;
+    /* content: '';
+    height: 36px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+}
+
+.language_list_item {
+    color: white !important;
+    /* display: table-cell;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 0 0 4px;
+    vertical-align: middle; */
+}
+
+.tw-lliw:hover, .tw-lliw:focus {
+    background: var(--searchField) !important;
+    /* cursor: pointer; */
 }
 
 /* 翻訳ここまで */
@@ -1031,11 +1095,6 @@ element.style {
     top: 10px;
     width: 100%;
     z-index: 4;*/
-}
-
-/* ログインボタン文字 */
-#gb a.gb_1.gb_1 {
-    color: white !important;
 }
 
 .F9PbJd {

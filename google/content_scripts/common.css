@@ -56,6 +56,11 @@ a.gb_f, span.gb_f {
     /*border: 1px solid transparent;*/
 }
 
+/* ログインボタン文字 */
+#gb a.gb_1.gb_1 {
+    color: white !important;
+}
+
 /*Googleの大きいロゴを変更*/
 .lnXdpd {
     /*元のロゴを非表示*/
