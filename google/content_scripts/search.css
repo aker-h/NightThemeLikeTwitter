@@ -180,6 +180,10 @@ span.DASDFc {
     padding: 22px 33px 6px 10px;*/
 }
 
+.ErsxPb-AHUcCb, .ErsxPb:active {
+    background-color: var(--searchField) !important;
+}
+
 /*アクティブ*/
 .hdtb-mitem.hdtb-msel {
     color: var(--linkedText) !important;
@@ -212,6 +216,83 @@ span.DASDFc {
     min-width: 652px;
     line-height: 43px;*/
 }
+
+/* 翻訳 */
+.j1iyq {
+    border: 1px solid var(--borderLine) !important;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 40px;
+    padding-left: 18px;
+    position: relative; */
+}
+
+.hhB0V {
+    color: var(--linkedText) !important;
+    /* cursor: pointer;
+    display: inline-block;
+    font-family: arial,sans-serif-medium,sans-serif;
+    width: 50%;
+    line-height: 40px; */
+}
+
+.tw-menu-btn {
+    color: var(--subText) !important;
+    /* cursor: pointer;
+    display: inline-block;
+    height: 48px;
+    overflow: hidden;
+    width: 48px; */
+}
+
+html:not(.zAoYTe) [href], html:not(.zAoYTe) button, html:not(.zAoYTe) iframe, html:not(.zAoYTe) input, html:not(.zAoYTe) select, html:not(.zAoYTe) textarea {
+    color: white !important;
+    /* outline: 0; */
+}
+
+.tw-bilingual-marked {
+    border-left: 3px solid var(--lightBlue) !important;
+    /* padding-left: 10px;
+    outline: none; */
+}
+
+.SvKTZc {
+    color: white !important;
+    /* display: block;
+    min-height: 24px;
+    line-height: 24px; */
+}
+
+.QXzCSe {
+    color: white !important;
+    /* display: none;
+    float: left;
+    font-family: arial,sans-serif-medium,sans-serif;
+    font-size: 16px; */
+}
+
+.bHOicb {
+    border-top: 1px solid var(--borderLine) !important;
+    /* display: none;
+    height: 48px;
+    color: #202124; */
+}
+
+.KFFQ0c .YfftMc, .KFFQ0c .YfftMc span, .KFFQ0c .YfftMc div, .KFFQ0c .YfftMc a {
+    color: var(--subText) !important;
+    /* align-items: center;
+    display: flex;
+    font-size: 12px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; */
+}
+
+/* 翻訳ここまで */
 
 /*広告・*/
 .VqFMTc {
@@ -484,6 +565,14 @@ hr {
     margin: 0;
     padding: 0;
     white-space: nowrap;*/
+}
+
+/* フィードバック */
+.yO9xPc {
+    color: var(--subText) !important;
+    /* font-style: italic;
+    margin-right: 16px;
+    font-size: 12px; */
 }
 
 #tw-target {
@@ -936,11 +1025,32 @@ element.style {
 
 .Lj9fsd {
     background: rgba(21, 32, 43, 0.8) !important;
+    backdrop-filter: blur(12px) !important;
     /*padding-top: 10px;
     position: absolute;
     top: 10px;
     width: 100%;
     z-index: 4;*/
+}
+
+/* ログインボタン文字 */
+#gb a.gb_1.gb_1 {
+    color: white !important;
+}
+
+.F9PbJd {
+    border: 1px solid var(--borderLine) !important;
+    /* border-radius: 8px;
+    box-sizing: border-box;
+    color: #3c4043;
+    display: inline-block;
+    font-size: 14px;
+    height: 48px;
+    margin-right: 8px;
+    padding: 0 16px;
+    position: relative;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: rgba(0,0,0,.1); */
 }
 
 /*ロゴ SVG*/
@@ -1091,7 +1201,7 @@ element.style {
 }
 
 .ErsxPb-AHUcCb, .ErsxPb:active {
-    background-color: var(--highlightItem) !important;
+    background-color: var(--searchField) !important;
 }
 
 .rQEFy {
@@ -1171,4 +1281,97 @@ element.style {
 .cEPPT {
     border-bottom: solid 1px var(--borderLine) !important;
     /*margin-bottom: 11px;*/
+}
+
+.WGvvNb {
+    color: var(--linkedText) !important;
+    /* cursor: pointer;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 12px;
+    letter-spacing: .2px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+
+/* 関連キーワード等 */
+.J3Tg1d {
+    border: 1px solid var(--borderLine) !important;
+    /* display: -webkit-inline-box;
+    display: inline-flex;
+    border-radius: 8px;
+    box-sizing: border-box; */
+}
+
+.UwAaac {
+    border-top: 1px solid var(--borderLine) !important;
+    /* border: none;
+    border-radius: 0;
+    box-flex: 1;
+    flex-grow: 1;
+    margin: inherit;
+    min-height: 56px;
+    padding: 8px; */
+}
+
+.J3Tg1d .tmS4cc .gadasb {
+    color: white !important;
+    /* font-size: 14px;
+    padding: 16px 12px 12px; */
+}
+
+.tRnLkd {
+    color: var(--subText) !important;
+    /* font-weight: 400; */
+}
+
+.W8wzH {
+    align-self: center;
+    color: var(--subText) !important;
+    /* font-size: 12px;
+    font-weight: 500;
+    padding: 0 6px 0 12px; */
+}
+
+/* 結果をもっと表示 */
+.mye4qd {
+    background: var(--grayButton) !important;
+    border: 1px solid var(--borderLine) !important;
+    color: var(--blackText) !important;
+    /* border-radius: 2px;
+    cursor: default;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    margin: 2px 0;
+    min-width: 54px;
+    text-align: center;
+    transition: all .218s,visibility 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: 100%; */
+}
+
+/* 画像検索ページのフッダー */
+.Pvpvv {
+    background-color: var(--wallPaper) !important;
+    border-top: 1px solid var(--borderLine) !important;
+    /* bottom: 0;
+    font-size: small;
+    left: 0;
+    line-height: 40px;
+    min-width: 1030px;
+    position: relative;
+    right: 0;
+    text-align: left;
+    width: 100%; */
+}
+
+/* インターネットアドレスに基づく */
+.Pvpvv {
+    color: var(--subText) !important;
+    min-height: 1px;
 }
