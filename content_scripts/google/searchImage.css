@@ -1,0 +1,8 @@
+.o3j99.ikrT4e.om7nvf::after {
+    position: relative !important;
+    content: "画像検索" !important;
+    color: var(--tLightBlue) !important;
+    font-size: 16px !important;
+    left: calc(50% + 77px) !important;
+    top: -95px !important;
+}

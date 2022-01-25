@@ -1,0 +1,42 @@
+:root {  
+    /* カラー */
+    --tIndigo: #7856ff;
+    --tIndigoOn: #6c4de6;
+    --tIndigoDis: #473b95;
+    --tIndigoBg:rgba(120, 86, 255, 0.1);
+    --tLightBlue: #1d9bf0;
+    --tLightBlueOn: #1a8cd8;
+    --tLihgtBlueDis: #195d8d;
+    --tLightBlueBg:rgba(29, 155, 240, 0.1);
+    --tLightGray: #EFF3F4;
+    --tLightGrayOn: #d7dbdc;
+    --tLightGreen:#00ba7c;
+    --tLightGreenOn:#00a770;
+    --tLightGreenDis: #0b6d54;
+    --tLightGreenBg: rgba(0, 186, 124, 0.1);
+    --tPink: #f91880;
+    --tPinkOn: #e01673;
+    --tPinkDis: #871c56;
+    --tPinkBg: rgba(249, 24, 128, 0.1);
+    --tRed: #f4212e;
+    --tRedBg: rgba(244, 33, 46, 0.1);
+
+    /* テキスト */
+    --textMain: #fff;
+    --textMainDis: #8a8f95;
+    --textSub: #8899a6;
+    --textSubMarked: #253341;
+    --textBlack: #000;
+
+    /* アイテム */
+    --wallpaper: #15202b;
+    --wallpaperBlur: rgba(21, 32, 43, 0.75);
+    --inputField: #253341;
+    --card: #192734;
+    --cardHighlight: #202e3a;
+    --borderline: #38444d;
+    --divHighlight: #1c2732;
+    --divHighlightDouble: #242e38;
+    --itemHighlight: #2d3741;
+    --shadow: rgb(136 153 166 / 20%) 0px 0px 15px, rgb(136 153 166 / 15%) 0px 0px 3px 1px;
+}

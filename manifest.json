@@ -10,31 +10,36 @@
 
     "content_scripts": [{
         "matches": [
+            "<all_urls>"
+        ],
+        "css": [
+            "content_scripts/root.css"
+        ]
+    },{
+        "matches": [
             "https://*.google.com/*",
             "https://*.google.co.jp/*"
         ],
         "js":[
             "js/jquery-3.6.0.min.js",
-            "google/content_scripts/waitForKeyElements.js",
-            "google/content_scripts/commonLib.js",
-            "google/content_scripts/commonOnload.js"
+            "js/enums.js",
+            "js/lib.js",
+            "content_scripts/google/commonLib.js",
+            "content_scripts/google/commonOnload.js"
         ],
-        "css": [            
-            "google/content_scripts/common.css"
-        ]
+        "css": [     
+            "content_scripts/google/common.css"
+        ],
+        "all_frames": true
     },{
         "matches": [
-            "https://*.google.com/search*",
-            "https://*.google.co.jp/search*"
+            "https://*.google.com/imghp*",
+            "https://*.google.co.jp/imghp*"
         ],
-        "all_frames": true,
-        "js":[
-            "js/jquery-3.6.0.min.js",
-            "google/content_scripts/searchLib.js",
-            "google/content_scripts/searchOnload.js"
-        ],
-        "css": [
-            "google/content_scripts/search.css"
+        "js":[],
+        "css": [            
+            "content_scripts/root.css",
+            "content_scripts/google/searchImage.css"
         ]
     }],
 
