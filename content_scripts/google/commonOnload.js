@@ -1,0 +1,5 @@
+(async () => {
+    applyToiframeGA();
+
+    return PROMISE;
+})();
