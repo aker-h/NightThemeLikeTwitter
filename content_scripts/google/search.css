@@ -1,0 +1,474 @@
+/* ↓↓ヘッダー↓↓ */
+    /* 上段 */
+    .sfbg {
+        background: var(--wallpaper) !important;
+        backdrop-filter: blur(12px) !important;
+        /* height: 69px;
+        left: 0;
+        position: absolute;
+        width: 100%; */
+    }
+
+    /* 歯車 */
+    .fLciMb {
+        color: var(--textSub) !important;
+        /* border-radius: 50%;
+        cursor: pointer;
+        height: 24px;
+        margin-top: 4px;
+        padding: 8px;
+        width: 24px; */
+    }
+    .fLciMb:hover {
+        background-color: var(--tLightBlueBg) !important;
+        /* text-decoration: none; */
+    }
+
+    /* 中段 */
+    .yg51vc {
+        background: var(--wallpaper) !important;
+        border-top: 1px solid var(--borderline) !important;
+        /* height: 58px;
+        padding: 0;
+        position: relative;
+        z-index: 126;
+        white-space: nowrap; */
+    }
+
+    /* すべて ニュース ショッピング 画像 動画 */    
+    .YTDezd {
+        background: var(--tLightBlue) !important;
+        /* height: 3px;
+        margin-top: 11px; */
+    }
+    .hdtb-mitem a {
+        color: var(--textSub) !important;
+    }
+    /* もっと見る ツール */
+    .hdtb-mitem .GOE98c, .hdtb-mitem a, .hdtb-mitem.hdtb-msel, .t2vtad {
+        color: var(--textSub) !important;
+        /* text-decoration: none;
+        display: inline-block;
+        padding: 0 12px;
+        padding: 8px 16px 8px 16px;
+        padding: 17px 12px 11px 10px; */
+    }
+    .hdtb-mitem.hdtb-msel {
+        color: var(--tLightBlue) !important;
+    }
+
+    /* もっと見る 中身 */
+    .cF4V5c {
+        background-color: var(--wallpaper) !important;
+    }
+    .sAKBe {
+        border: 1px solid var(--tLightBlue) !important;
+        /* border-radius: 8px;
+        box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%); */
+    }
+    .gvybPb, .ErsxPb:active {
+        background-color: var(--cardHighlight) !important;
+    }
+    .iJddsb img, .iJddsb svg {
+        color: var(--textSub) !important;
+        /* display: block;
+        height: 100%;
+        width: 100%; */
+    }
+    .znKVS.OSrXXb.tnhqA a {
+        color: var(--textSub) !important;
+    }
+
+    .GLcBOb {
+        border-bottom: 1px solid var(--borderline) !important;
+        /* color: #70757a;
+        font-size: 14px;
+        font-family: Google Sans,arial,sans-serif;
+        margin-top: -21px;
+        position: relative;
+        z-index: 126; */
+    }
+
+/* 下段 */
+.appbar {
+    background: var(--wallpaper) !important;
+    /* position: relative;
+    overflow-x: clip;
+    overflow-y: visible;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; */
+}
+/* ↑↑ヘッダー↑↑ */
+
+/* ↓↓検索結果↓↓ */
+    .minidiv .sfbg {
+        background: var(--wallpaperBlur) !important;
+        /* height: 72px;
+        overflow: hidden;
+        box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%); */
+    }
+
+    /* 検索件数 */
+    .LHJvCe {
+        color: var(--textSub) !important;
+        /* display: flex;
+        position: absolute;
+        top: 0;
+        -webkit-transition: all 220ms ease-in-out;
+        justify-content: space-between;
+        min-width: 652px;
+        line-height: 43px; */
+    }
+
+    /* ↓↓ 強調スニペット ↓↓ */
+        .kp-blk {
+            box-shadow: var(--shadow) !important;
+            background: var(--card) !important;
+            border: 1px    solid var(--card) !important;
+            /* border-radius: 8px; */
+        }
+
+        .akqY6 {
+            background: var(--borderline) !important;
+            /* height: 1px;
+            width: 100%; */
+        }
+        /* 強調スニペットについて・フィードバック */
+        .KFFQ0c .YfftMc, .KFFQ0c .YfftMc span, .KFFQ0c .YfftMc div, .KFFQ0c .YfftMc a {
+            align-items: center;
+            color: var(--textSub) !important;
+            display: flex;
+            font-size: 12px;
+            font-style: normal;
+            margin: 0;
+            padding: 0;
+            white-space: nowrap;
+        }
+    /* ↑↑ 強調スニペット ↓↓ */
+
+    a:visited {
+        color: var(--tIndigo) !important;
+    }
+    cite, cite a:link, cite a:visited {
+        color: var(--textMain) !important;
+        /* font-style: normal; */
+    }
+    .dyjrff {
+        color: var(--textSub) !important;
+    }
+    .WZ8Tjf {
+        color: var(--textSub) !important;
+    }
+    .yDYNvb.lyLwlc {
+        color: var(--textMainDis) !important;
+    }
+    .yXK7lf em {
+        color: var(--textMain) !important;
+    }
+    .YkS8D .N6jJud {
+        color: var(--textSub) !important;
+    }
+    .IsZvec, .GELlw {
+        color: var(--textSub) !important;
+        /* max-width: 48em;
+        line-height: 1.58; */
+    }
+
+    /* 他の人はこちらも検索 */
+    .AUiS2 {
+        border: 1px solid var(--borderline) !important;
+        background: var(--card) !important;
+        /* border-radius: 8px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+        display: none;
+        margin-top: 10px;
+        opacity: 0;
+        outline: none;
+        position: relative;
+        top: 2px;
+        margin-bottom: 2px;
+        transform-origin: top left;
+        transition: all 150ms ease-in-out;
+        white-space: nowrap; */
+    }
+    .eJ7tvc {
+        color: var(--textSub) !important;
+        /* margin: 12px 20px;
+        font-size: 14px; */
+    }
+
+/* グレーボタン */
+.k8XOCe {
+    background-color: var(--tLightGray) !important;
+    /* align-items: center;
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    max-height: none;
+    min-height: 48px;
+    padding-left: 17px;
+    padding-right: 17px;
+    position: relative; */
+}
+.aXBZVd {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    height: 20px;
+    padding: 10px;
+    width: 20px;
+    background-image: none !important;
+    background: var(--textBlack) !important;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='rgba(255,255,255,.54)' d='M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z'/%3E%3C/svg%3E");
+    mask-position: center !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 20px !important;
+        -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='rgba(255,255,255,.54)' d='M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z'/%3E%3C/svg%3E");
+        -webkit-mask-position: center !important;
+        -webkit-mask-repeat: no-repeat !important;
+        -webkit-mask-size: 20px !important;
+}
+.s75CSd {
+    color: var(--textBlack) !important;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    flex: 1;
+    font-size: 16px;
+    -webkit-line-clamp: 2;
+    max-width: 227px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+    /* ↓↓ カード(Youtube) ↓↓ */
+.cv2VAd {
+    border: 1px solid var(--card) !important;
+    /* border-radius: 8px;
+    box-shadow: none; */
+}
+g-inner-card {
+    background-color: var(--card) !important;
+    /* border-radius: 8px;
+    display: block;
+    overflow: hidden; */
+}
+.ynAwRc {
+    color: var(--tLightBlue) !important;
+}
+.YC0knb {
+    color: var(--textMainDis) !important;
+    /* margin-top: 16px;
+    font-size: 14px;
+    line-height: 22px; */
+}
+    /* ↑↑ カード(Youtube) ↑↑ */
+
+/* ↑↑ 検索結果 ↑↑ */
+
+/* ↓↓ Goooooooooogle ↓↓ */
+.YyVfkd {
+    color: var(--textMain) !important;
+    /* font-weight: normal; */
+}
+/* ↑↑ Goooooooooogle ↑↑ */
+
+/* ↓↓ フッター ↓↓ */
+.fbar p, .fbar a {
+    color: var(--textSub) !important;
+}
+.f6F9Be {
+    background: var(--wallpaper) !important;
+    box-shadow: var(--shadow) !important;
+    /* line-height: 40px;
+    padding-bottom: 12px; */
+}
+/* 国 */
+.b0KoTc {
+    color: var(--textSub) !important;
+}
+#swml {
+    border-left: 1px solid var(--borderline) !important;
+    /* display: inline-block;
+    margin-left: 13px;
+    padding-left: 16px; */
+}
+.unknown_loc {
+    background: var(--textSub) !important;
+}
+/* 住所 */
+#Wprf1b {
+    color: var(--textMainDis) !important;
+    /* font-weight: bold; */
+}
+/* -ソース: あなたのIPアドレス */
+.KwU3F {
+    color: var(--tLightBlue) !important;
+}
+/* -現在地を更新 */
+.smiUbb {
+    color: var(--textSub) !important;
+    /* margin-left: 180px;
+    line-height: 15px; */
+}
+.xSQxL {
+    color: var(--tLightBlue) !important;
+    /* cursor: pointer;
+    display: inline-block; */
+}
+.b2hzT {
+    border-bottom: 1px solid var(--borderline) !important;
+}
+/* ↑↑ フッター ↑↑ */
+
+/* ↓↓ クイック設定 ↓↓ */
+.CbAZb {
+    background: var(--wallpaper) !important;
+    border-bottom: 1px solid var(--borderline) !important;
+    /* bottom: 0;
+    overflow-y: auto;
+    position: fixed;
+    right: -360px;
+    top: 0;
+    width: 360px;
+    font-family: Google Sans,arial,sans-serif; */
+}
+.S8wJ3 {
+    color: var(--textMain) !important;
+    /* font-family: Google Sans,arial,sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left; */
+}
+.tGS0Nc {
+    border: 1px solid var(--borderline) !important;
+    /* border-radius: 8px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center; */
+}
+a.tGS0Nc:hover {
+    background-color: var(--divHighlight) !important;
+    /* color: #1967d2; */
+}
+.kwWBYc {
+    color: var(--textMain) !important;
+    /* font-family: arial,sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 8px; */
+}
+.q0yked:hover {
+    background-color: var(--divHighlight) !important;
+}
+.ZI7elf {
+    color: var(--textMain) !important;
+    /* cursor: pointer; */
+}
+.fmxhfc {
+    color: var(--textMain) !important;
+    /* margin: 20px 0 8px;
+    font-family: arial,sans-serif; */
+}
+.m0uvVb {
+    border-top: 1px solid var(--borderline) !important;
+    /* font-size: 16px;
+    padding: 4px 24px 10px; */
+}
+.ITNV1 {
+    background-color: var(--inputField) !important;
+    /* position: absolute;
+    height: 14px;
+    border-radius: 7px;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    margin: -7px 0 0 -18px;
+    width: 36px;
+    transition: background-color .3s ease;
+    -webkit-transition: background-color .3s ease; */
+}
+.UsN2ld:not(.bjIqib) .a9oE3e:checked~.ITNV1, .UsN2ld:not(.bjIqib) .a9oE3e:checked~.rBrJud {
+    background-color: var(--tLightBlueOn) !important;
+}
+.kQEH5b {
+    color: var(--textSub) !important;
+    /* float: right;
+    cursor: pointer; */
+}
+.uWNHce {
+    color: var(--textMain) !important;
+    /* display: inline-block;
+    margin-left: -16px;
+    margin-bottom: -16px;
+    font-family: arial,sans-serif;
+    width: 328px; */
+}
+.LZTko:hover {
+    background: var(--divHighlight) !important;
+    box-shadow: -56px 0 var(--divHighlight), 24px 0 var(--divHighlight), -56px -10px 0 var(--divHighlight), 24px -10px 0 var(--divHighlight) !important;
+    /* cursor: pointer; */
+}
+.j0iFNe .kaAgDc, .j0iFNe .RvdoFd .wT0tpe, .j0iFNe .r0zAxe .wT0tpe {
+    background-color: var(--tLightBlue) !important;
+}
+/* ↑↑ クイック設定 ↑↑ */
+
+/* ↓↓ セーフサーチ ↓↓ */
+/* 矢印 */
+.ZoN4Lb {
+    color: var(--textMain) !important;
+}
+/* 戻る */
+.sPl35c {
+    color: var(--textSub) !important;
+    /* font-size: 14px;
+    line-height: 24px; */
+}
+/* 露骨な表現を検索結果から除外する */
+.mGOaCb {
+    color: var(--textMain) !important;
+    /* font-family: Google Sans,arial,sans-serif;
+    font-size: 24px;
+    line-height: 32px; */
+}
+.paanad {
+    color: var(--textSub) !important;
+}
+.nG2kJd {
+    color: var(--textMainDis) !important;
+    /* top: 56px;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0; */
+}
+hr {
+    border-bottom: 1px solid var(--borderline) !important;
+    /* border: 0;
+    margin: 0; */
+}
+/* セーフサーチについて */
+.PlQycd {
+    color: var(--textMain) !important;
+    /* font-family: Google Sans,arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px; */
+}
+.eUOBKb {
+    color: var(--textMainDis) !important;
+    /* font-family: arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0; */
+}
+/* フィードバック */
+.vDNRKc {
+    color: var(--textSub) !important;
+    /* font-size: 12px; */
+}
+/* ↑↑ セーフサーチ ↑↑ */
+
+
+/* ↓↓ ○○ ↓↓ */
+/* ↑↑ ○○ ↑↑ */

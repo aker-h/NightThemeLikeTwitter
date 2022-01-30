@@ -10,16 +10,11 @@
 
     "content_scripts": [{
         "matches": [
-            "<all_urls>"
-        ],
-        "css": [
-            "content_scripts/root.css"
-        ]
-    },{
-        "matches": [
+            "https://*.トップページ.com/*",
             "https://*.google.com/*",
             "https://*.google.co.jp/*"
         ],
+        "exclude_matches":[],
         "js":[
             "js/jquery-3.6.0.min.js",
             "js/enums.js",
@@ -27,20 +22,13 @@
             "content_scripts/google/commonLib.js",
             "content_scripts/google/commonOnload.js"
         ],
-        "css": [     
-            "content_scripts/google/common.css"
+        "css": [
+            "content_scripts/root.css",
+            "content_scripts/google/common.css",
+            "content_scripts/google/search.css",
+            "content_scripts/google/searchImage.css"
         ],
         "all_frames": true
-    },{
-        "matches": [
-            "https://*.google.com/imghp*",
-            "https://*.google.co.jp/imghp*"
-        ],
-        "js":[],
-        "css": [            
-            "content_scripts/root.css",
-            "content_scripts/google/searchImage.css"
-        ]
     }],
 
     "content_security_policy": {

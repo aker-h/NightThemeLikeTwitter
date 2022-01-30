@@ -207,8 +207,17 @@ a.gb_f, span.gb_f {
 }
 
 .mus_tt17 {
-    color: var(--textMain);
+    color: var(--textMain) !important;
     /* font-size: 20px; */
+}
+
+/* 不適切な検索候補の報告 */
+a.oBa0Fe {
+    color: var(--textSub) !important;
+    /* float: right;
+    font-style: italic;
+    -webkit-tap-highlight-color: rgba(0,0,0,.00);
+    tap-highlight-color: rgba(0,0,0,.00); */
 }
 
 .aajZCb {
