@@ -1,0 +1,404 @@
+/* ↓↓ 固定ヘッダー ↓↓ */
+.o365sx-navbar {
+    background-color: var(--wallpaper) !important;
+    /* background-position: left top;
+    background-repeat-x: repeat;
+    background-image: none; */
+}
+
+.o365cs-base .o365sx-waffle {
+    color: var(--textSub) !important;
+    background-color: var(--wallpaper) !important;
+}
+.o365cs-base .o365sx-button:hover {
+    background-color: var(--divHighlight) !important;
+    /* color: #FFFFFF; */
+}
+
+.o365cs-base .o365sx-appName, .o365cs-base .o365sx-appName:visited {
+    color: var(--textMain) !important;
+    background-color: var(--wallpaper) !important;
+}
+.o365cs-base .o365sx-button {
+    color: var(--textSub) !important;
+    background-color: var(--wallpaper) !important;
+}
+
+html[dir] ._1A9lFx5niCDFyCH8SSaY2- {
+    background: var(--wallpaper) !important;
+    /* border-radius: 0; */
+}
+
+div#o365header {
+    border-bottom: 1px solid var(--borderline) !important;
+}
+/* 固定ヘッダー ↑↑ */
+
+/* ↓↓ レフトサイドバー ↓↓ */
+.o365cs-base .o365sx-neutral-foreground-background, .o365cs-base .o365sx-neutral-foreground-hover-background:hover {
+    background-color: var(--wallpaper) !important;
+}
+
+a._1f_xZYaR76amiIfYIOmZIX.o365sx-neutral-accent-hover-background.o365sx-neutral-accent-font:hover {
+    background-color: var(--divHighlight) !important;
+}
+
+.o365cs-base .o365sx-neutral-accent-font, .o365cs-base .o365sx-neutral-accent-hover-font:hover {
+    color: var(--tLightBlue) !important;
+}
+
+.o365cs-base .o365sx-neutral-dark-font, .o365cs-base .o365sx-neutral-dark-hover-font:hover {
+    color: var(--textMain) !important;
+}
+
+.o365cs-base .XosamnChUoOcR_dGIrHqq:hover[href], .o365cs-base ._1Gm0wWdraaFnz8WO0s3t3y {
+    background: var(--divHighlight) !important; 
+    border-color: var(--borderline)!important;
+    box-shadow: var(--shadow) !important;
+    /* transition: border-color .167s linear,box-shadow .167s linear; */
+}
+.o365cs-base .o365sx-neutral-light-background, .o365cs-base .o365sx-neutral-light-hover-background:hover {
+    background-color: var(--divHighlightDouble) !important;
+}
+
+.o365cs-base .o365sx-neutral-light-border, .o365cs-base .o365sx-neutral-light-hover-border:hover {
+    border-color: var(--tLightGray) !important;
+    color: var(--textMain) !important;
+}
+
+.o365cs-base .o365sx-neutral-accent-background, .o365cs-base .o365sx-neutral-accent-hover-background:hover {
+    background-color: var(--tLightGrayOn) !important;
+}
+
+._3ZsJPsugEmiLt_KUNo-sUU {
+    border: 1px solid var(--tLightBlue) !important;
+    box-shadow: var(--shadow) !important;
+    /* position: absolute;
+    z-index: 1000000;
+    background-color: #fff;
+    width: 320px;
+    min-width: 320px;
+    max-width: 320px;
+    box-sizing: border-box;
+    outline: none;
+    overflow-y: auto;
+    visibility: visible;
+    pointer-events: auto;
+    border-radius: 2px;
+    animation-duration: .15s;
+    animation-name: contextMenu-slideIn;
+    animation-timing-function: cubic-bezier(0,0,0,1);
+    transform-origin: top;
+    display: block;
+    min-width: 180px!important;
+    outline-width: 0;
+    outline-color: invert; */
+}
+
+.o365cs-base .o365sx-neutral-secondary-font, .o365cs-base .o365sx-neutral-secondary-hover-font:hover {
+    color: var(--textMainDis) !important;
+}
+
+/* ↑↑ レフトサイドバー ↑↑ */
+
+/* ↓↓ レフトアイテムバー ↓↓ */
+.f1c21dwh {
+    background-color: var(--wallpaper) !important;
+}
+
+.fk7zsc9:hover {
+    background: var(--divHighlightDouble) !important;
+}
+
+.f1ctqxl6 {
+    background-color: var(--borderline) !important;
+}
+
+.f1vdjgj::before {
+    border-top-color: var(--borderline) !important;
+}
+.fii7hsz::after {
+    border-top-color: var(--borderline) !important;
+}
+
+.fui-FluentProvider.fui-FluentProvider1.___1g0n495.f19n0e5.fxugw4r.fk6fouc.fkhj508.figsok6 {
+    border-right: 1px solid var(--borderline) !important;
+}
+/* ↑↑ レフトアイテムバー ↑↑ */
+
+.o365cs-base {
+    color: var(--textSub) !important;
+}
+.o365cs-base .o365sx-neutral-lighter-background, .o365cs-base .o365sx-neutral-lighter-hover-background:hover {
+    background-color: var(--divHighlight) !important;
+}
+
+/* ↓↓ お使いのブラウザーでは、owaを規定の電子メールハンドラーとして設定することがサポートされています。 ↓↓ */
+html[dir] ._1jyFEGxMfFhvZV92csDVZ- {
+    background-color: var(--tLightGray) !important;
+}
+
+._3B4UsI1dehrnOc21Qos61e {
+    color: var(--textBlack) !important;
+    /* width: 100%;
+    font-weight: 600; */
+}
+
+._3B4UsI1dehrnOc21Qos61e button {
+    color: var(--tLightBlue) !important;
+}
+.root-235:hover {
+    color: var(--tLightBlueOn) !important;
+    /* text-decoration: underline; */
+}
+/* ↑↑ お使いのブラウザーでは、owaを規定の電子メールハンドラーとして設定することがサポートされています。 ↑↑ */
+
+/* ↓↓ レフトペイン ↓↓ */
+html[dir] ._1qPqjoFrRhZTOpwH-IJ2UP {
+    background-color: var(--wallpaper) !important;
+    border-bottom: 1px solid var(--borderline) !important;
+}
+
+html[dir] ._2nxYvsT9VmpG24V7lwcfcu {
+    background-color: var(--wallpaper) !important;
+    border-bottom: 1px solid var(--borderline) !important;
+}
+
+html[dir] ._3I_zSwwDZFYNmkWij4VI2F {
+    background-color: var(--wallpaper) !important;
+}
+
+._3xjtFZiBm1DrWK64r3hZWK {
+    color: var(--textSub) !important;
+    /* width: 36px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto; */
+}
+
+._1PkXPyxM3Hhk5H6YNvwMa1:hover ._3xjtFZiBm1DrWK64r3hZWK {
+    color: var(--textSubMarked) !important;
+}
+
+._3fLh9Wjn6GR68OwcUckdM0 {
+    color: var(--textMainDis) !important;
+    /* -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400; */
+}
+
+._2f5JzhIau1fYVnCdnF6jed:hover ._3JuADJZrI8MDGlNxg_ila7, ._2f5JzhIau1fYVnCdnF6jed:hover ._3fLh9Wjn6GR68OwcUckdM0, ._1PkXPyxM3Hhk5H6YNvwMa1:hover ._3JuADJZrI8MDGlNxg_ila7, ._1PkXPyxM3Hhk5H6YNvwMa1:hover ._3fLh9Wjn6GR68OwcUckdM0 {
+    color: var(--textMain) !important;
+}
+
+.LY59tV7oDi_ekjfK_th9x ._3fLh9Wjn6GR68OwcUckdM0, .LY59tV7oDi_ekjfK_th9x:hover ._3fLh9Wjn6GR68OwcUckdM0 {
+    color: var(--tLightBlue) !important;
+}
+
+html[dir] .LY59tV7oDi_ekjfK_th9x:hover {
+    background-color: var(--divHighlightDouble) !important;
+}
+
+html[dir=ltr] ._3m1vczpYw71MBM0vWJJV5y {
+    border-right: 1px solid var(--borderline) !important;
+    /* -webkit-box-shadow: inset -10px 0 10px -10px var(--blackTranslucent10);
+    box-shadow: inset -10px 0 10px -10px var(--blackTranslucent10); */
+}
+/* ↑↑ レフトペイン ↑↑ */
+
+/* ↓↓ ミドルペイン ↓↓ */
+html[dir] .w4T91TVJrRh9QNUdePUM0 {
+    background-color: var(--card) !important;
+    border-bottom: 1px solid var(--borderline) !important;
+}
+.root-177 {
+    background: var(--wallpaper) !important;
+    /* font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    display: flex;
+    padding: 0px 14px 0px 0px;
+    height: 44px; */
+}
+
+html[dir] ._29Z3GpJ-h4tXQCOYyShJDr {
+    background: var(--wallpaper) !important;
+}
+
+._3RzT6xOXHMpP9a5SLXbzC4:not(.Z2ln219tDs477eDBvVnsK), ._3RzT6xOXHMpP9a5SLXbzC4:not(.Z2ln219tDs477eDBvVnsK) .ms-Button-icon, ._3RzT6xOXHMpP9a5SLXbzC4:not(.Z2ln219tDs477eDBvVnsK) .ms-Button-menuIcon {
+    color: var(--tLightBlue) !important;
+}
+
+html[dir] ._3H-aDJS5lve7ygwD0TXE6R {
+    background-color: var(--wallpaper) !important;
+}
+
+._3TFJ6hWkkSKUtXUmmBYdBd._2yY8aBdtjO4JcToI6x-A-r {
+    color: var(--textMain) !important;
+}
+
+html[dir=ltr] ._3TShXKcugWppOYRofyKkhd, html[dir=ltr] ._2ZzIEsVWXP6qn3zS_o2QEr {
+    border-right: 1px solid var(--borderline) !important;
+}
+
+._9fiU2J67uJPVP0DBdOFMW {
+    fill: var(--tLightBlue) !important;
+    /* height: 100%;
+    width: 100%;
+    vertical-align: top; */
+}
+._1bMMwwXrtuDadMcc51CeCG, ._2FWQ1opcO_KfPmiQArqOQW {
+    color: var(--tLightBlue) !important;
+    /* cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: 32px; */
+}
+
+.sh5_DUKOkzTT-nYJba5P {
+    color: var(--tLightBlue) !important;
+    /* font-weight: 400;
+    font-size: 10px; */
+}
+
+html[dir] ._1bMMwwXrtuDadMcc51CeCG:hover {
+    background-color: var(--cardHighlight) !important;
+}
+
+html[dir] ._3l1LPpECV0e33O0IU3JOWv {
+    border-bottom: 1px solid var(--borderline) !important;
+}
+
+html[dir] ._3qXS6Uo8WFxax_lDWr_1a_ {
+    background-color: var(--borderline) !important;
+}
+
+html[dir=ltr] ._1n2-cmjz7wai2ImcUAHRgH._1yeTnoNkSL8TQYVNlv8s43 {
+    border-left-color: var(--themePrimary) !important;
+}
+
+._1rW_OaZRsPzZdsjSPd9D95, ._2OPXurjyQIi0T0EvMan2_j, ._1y3FkDsOHuxLnfkzQ8Dx7o, ._2ZDUqsleGa-jar5wAYvVzV {
+    color: var(--textMain) !important;
+    /* -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.oIybaolikVaXnYb_TcWkN, ._2NacLWmVBW3tI8rGb8xHpU {
+    color: var(--textMainDis) !important;
+    /* -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 400; */
+}
+
+._24WqHp8mfxSp2QIJMkmSrM {
+    color: var(--textSub) !important;
+}
+
+._1yeTnoNkSL8TQYVNlv8s43 ._1_fQat0axyW_3U1fNm3sam {
+    color: var(--tLightBlue) !important;
+}
+
+html[dir] .Vq6wcpNKPy0sZ_F4WgCm-:hover._2t8JTlYe89E2LUOAQG564N {
+    background-color: var(--divHighlightDouble) !important;
+}
+
+html[dir] .XirTdELItKhIpkqfelgS0 {
+    background-color: var(--divHighlightDouble) !important;
+}
+
+html[dir] ._1uwuAQ2QH43CUW4Q39EvLG {
+    background-color: var(--card) !important;
+    /* margin-bottom: 1px; */
+}
+
+._1uwuAQ2QH43CUW4Q39EvLG {
+    color: var(--textMain) !important;
+    /* cursor: default;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-size: 14px;
+    font-weight: 400;
+    font-weight: 600; */
+}
+
+html[dir=ltr] ._1n2-cmjz7wai2ImcUAHRgH._1yeTnoNkSL8TQYVNlv8s43 {
+    border-left-color: var(--tLightGreen) !important;
+}
+/* ↑↑ ミドルペイン ↑↑ */
+
+/* ↓↓ ライトペイン ↓↓ */
+html[dir] ._2qM5JFJlSDFbw17aZw2PSp {
+    background-color: var(--wallpaper) !important;
+}
+
+._1CvCjQzRJKCSxkdDWSwdLl {
+    color: var(--textMainDis) !important;
+    /* font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; */
+}
+
+._3RLXFi5agLtNh9jNXXl_SL {
+    color: var(--textSub) !important;
+    /* font-size: 14px; */
+}
+/* ↑↑ ライトペイン ↑↑ */
+
+/* ↓↓ ○○○○○○○○ ↓↓ */
+/* ↑↑ ○○○○○○○○ ↑↑ */

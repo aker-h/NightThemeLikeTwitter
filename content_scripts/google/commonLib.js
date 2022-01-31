@@ -50,3 +50,33 @@ async function applyToiframeGA () {
         resolve('unchi');
     });
 };
+
+function isTopPageOfImageSearch (url) {
+    if (url.indexOf('https://www.google.') !== 0) {
+        return false;
+    }
+
+    url = url.replace('https://www.google.', '');
+
+    if (url.indexOf('/') === -1) {
+        return false;
+    }
+
+    url = url.slice(url.indexOf('/') + 1);
+
+    if (url.indexOf('imghp') === 0) {
+        return true;
+    }
+
+    return false;
+};
+
+function addLogoOfImageSearch () {
+    let link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = chrome.runtime.getURL('content_scripts/google/searchImage.css');
+
+    document.head.appendChild(link);
+
+    return;
+};

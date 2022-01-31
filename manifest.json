@@ -10,9 +10,8 @@
 
     "content_scripts": [{
         "matches": [
-            "https://*.トップページ.com/*",
-            "https://*.google.com/*",
-            "https://*.google.co.jp/*"
+            "https://www.google.com/*",
+            "https://www.google.co.jp/*"
         ],
         "exclude_matches":[],
         "js":[
@@ -25,10 +24,18 @@
         "css": [
             "content_scripts/root.css",
             "content_scripts/google/common.css",
-            "content_scripts/google/search.css",
-            "content_scripts/google/searchImage.css"
+            "content_scripts/google/search.css"
         ],
         "all_frames": true
+    },{
+        "matches": [
+            "https://outlook.office365.com/mail/*"
+        ],
+        "js": [],
+        "css": [
+            "content_scripts/root.css",
+            "content_scripts/outlook/common.css"
+        ]
     }],
 
     "content_security_policy": {
@@ -36,7 +43,10 @@
     },
 
     "web_accessible_resources": [{
-        "resources": ["img/*.png"],
+        "resources": [
+            "*.png",
+            "*.css"
+        ],
         "matches": ["<all_urls>"]
     }]
 }
