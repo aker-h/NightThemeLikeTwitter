@@ -24,6 +24,28 @@
         /* text-decoration: none; */
     }
 
+    /* ロゴ */
+    #logo img {
+        visibility: hidden !important;
+        /* border: 0; */
+    }
+
+    .logo {
+        background: var(--tLightBlue) !important;
+        mask-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png) !important;
+        mask-size: 92px    30px;
+        mask-repeat: no-repeat !important;
+        mask-position: center bottom !important;
+        -webkit-mask-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png) !important;
+        -webkit-mask-size: 92px    30px;
+        -webkit-mask-repeat: no-repeat !important;
+        -webkit-mask-position: center bottom !important;
+        /* position: absolute;
+        left: -139px;
+        padding: 4px 28px 0 30px;
+        top: 6px; */
+    }
+
     /* 中段 */
     .yg51vc {
         background: var(--wallpaper) !important;
@@ -172,6 +194,21 @@
         color: var(--textSub) !important;
         /* max-width: 48em;
         line-height: 1.58; */
+    }
+    .YrbPuc, .qHx7jd {
+        color: var(--textSub) !important;
+        /* font-family: arial,sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px; */
+    }
+    .z8gr9e {
+        color: var(--textMain) !important;
+    }
+    .usJj9c .zz3gNc {
+        color: var(--textMainDis) !important;
+        /* overflow: hidden;
+        width: 220px; */
     }
 
     /* 他の人はこちらも検索 */
@@ -469,6 +506,235 @@ hr {
 }
 /* ↑↑ セーフサーチ ↑↑ */
 
+/* ↓↓ 翻訳 ↓↓ */
+.j1iyq {
+    background: var(--card) !important;
+    border: 1px solid var(--card) !important;
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 40px;
+    padding-left: 18px;
+    position: relative; */
+}
+
+.tw-src-ltr #tw-source {
+    background: var(--card) !important;
+    border-radius: 8px !important;
+    /* direction: ltr; */
+}
+
+#tw-target {
+    background-color: var(--card) !important;
+    /* border-radius: 8px; */
+}
+
+.j1iyq:hover {
+    background: var(--cardHighlight) !important;
+}
+
+.hhB0V {
+    color: var(--textMainDis) !important;
+    /* cursor: pointer;
+    display: inline-block;
+    font-family: arial,sans-serif-medium,sans-serif;
+    width: 50%;
+    line-height: 40px; */
+}
+
+.tw-menu-btn {
+    color: var(--textSub) !important;
+    /* cursor: pointer;
+    display: inline-block;
+    height: 48px;
+    overflow: hidden;
+    width: 48px; */
+}
+
+.tw-ta {
+    color: var(--textMain) !important;
+    /* background-color: transparent;
+    border: none;
+    padding: 0;
+    padding-right: 0.14em;
+    position: relative;
+    margin: 0;
+    resize: none;
+    font-family: inherit;
+    overflow: hidden;
+    text-align: initial;
+    width: 100%;
+    white-space: pre-wrap;
+    word-wrap: break-word; */
+}
+
+.tw-ta::placeholder {
+    color: var(--textSub) !important;
+}
+
+.gt-is-itm {
+    background: var(--textSubMarked) !important;
+    color: var(--textSub) !important;
+    /* border-radius: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    direction: inherit;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 4px;
+    padding: 0 10px;
+    position: relative;
+    margin-bottom: 4px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    white-space: nowrap; */
+}
+
+.gt-is-lb {
+    color: var(--textSub) !important;
+    /* box-sizing: border-box;
+    display: inline;
+    position: relative; */
+}
+
+.gt-is-cont {
+    color: var(--textSub) !important;
+    /* box-sizing: border-box;
+    display: inline;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 2px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis; */
+}
+
+.zaokob {
+    background: var(--wallpaper) !important;
+    border: 1px solid var(--tLightBlue) !important;
+    /* border-radius: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3; */
+}
+
+.language_list_item {
+    color: var(--textMain) !important;
+    /* display: table-cell;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 0 0 4px;
+    vertical-align: middle; */
+}
+
+.language_list_languages.tw-ll-top::after {
+    background: linear-gradient(to bottom,rgba(136,153,166,0),rgba(136,153,166,0.2)) !important;
+    /* content: '';
+    height: 36px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+}
+
+.tw-lliw:hover, .tw-lliw:focus {
+    background: var(--divHighlight) !important;
+    /* cursor: pointer; */
+}
+
+.tw-lp-search {
+    background-color: var(--inputField) !important;
+    border: 1px solid var(--inputField) !important;
+    color: var(--textMain) !important;
+    /* background: url(https://www.gstatic.com/images/icons/material/system/2x/search_grey600_24dp.png) right 8px center no-repeat;
+    background-size: 24px 24px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 40px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: calc(100% - 48px - 8px); */
+}
+
+.tw-lp-search::placeholder {
+    color: var(--textSub) !important;
+}
+
+.tw-lp-search:focus {
+    background-color: var(--wallpaper) !important;
+    border-color: var(--tLightBlue) !important;
+}
+
+.ouzppf {
+    color: var(--textSub) !important;
+    /* box-sizing: border-box;
+    cursor: pointer;
+    height: 48px;
+    padding: 12px;
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 48px; */
+}
+
+.tw-bilingual-pos {
+    color: var(--textMainDis) !important;
+    /* font-family: arial,sans-serif-medium,sans-serif;
+    font-size: 15px;
+    margin: 4px 0 6px; */
+}
+
+.SvKTZc {
+    color: var(--textMain) !important;
+    /* display: block;
+    min-height: 24px;
+    line-height: 24px; */
+}
+
+.MaH2Hf {
+    color: var(--textMainDis) !important;
+    /* min-height: 24px;
+    margin-top: -4px; */
+}
+
+.tw-bilingual-marked {
+    border-left: 3px solid var(--tLightBlue) !important;
+    /* padding-left: 10px;
+    outline: none; */
+}
+
+.bHOicb {
+    border-top: 2px solid var(--borderline) !important;
+    /* display: none;
+    height: 48px;
+    color: #202124; */
+}
+
+.tw-bilingual-entry:hover {
+    text-decoration: dotted underline !important;
+    text-decoration-color: var(--tLightGreen) !important;
+}
+/* ↑↑ 翻訳 ↑↑ */
+
+/* ↓↓ Twitterなどのカード ↓↓ */
+
+/* ↑↑ Twitterなどのカード ↑↑ */
 
 /* ↓↓ ○○ ↓↓ */
 /* ↑↑ ○○ ↑↑ */
