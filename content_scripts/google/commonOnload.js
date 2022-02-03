@@ -1,5 +1,5 @@
 (async () => {
-    wait4iFrameGA();
+    // wait4iFrameGA();
 
     if (isTopPageOfImageSearch(location.href)) {
         addLogoOfImageSearch();

@@ -32,6 +32,116 @@ html[dir] ._1A9lFx5niCDFyCH8SSaY2- {
 div#o365header {
     border-bottom: 1px solid var(--borderline) !important;
 }
+
+html[dir] ._2BJrr7ZW18iMaVb_GyqbrA {
+    background: var(--inputField) !important;
+}
+
+._3wQTSNV_3E8J5WJX_ST4dS .root-177 {
+    background: var(--inputField) !important;
+}
+
+._3wQTSNV_3E8J5WJX_ST4dS, ._231rMGbGJh2cPjlcdh6XgV, .wHVbNv440WYk_q_vyOUnk {
+    color: var(--textSub) !important;
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 16px;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 44px; */
+}
+
+.dropdown-234 {
+    color: var(--textSub) !important;
+    border: 1px solid var(--tLightBlue) !important;
+    border-right-width: 0px !important;
+    /* box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    border-color: var(--neutralSecondary);
+    position: relative;
+    outline: 0px;
+    user-select: none; */
+}
+
+html[dir] ._1UdOoVoWm0GAi3-FgPl1js {
+    background-color: transparent !important;
+    /* background: none;
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0; */
+}
+
+html[dir] .xXen4f5RvBWqdMmwenc53 {
+    background-color: var(--inputField) !important;
+    /* border: 0;
+    text-align: center; */
+}
+
+.caretDown-250 {
+    color: var(--textSub) !important;
+    /* display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: controlIcons;
+    font-size: 16px;
+    pointer-events: none; */
+}
+
+.dropdown-234:hover .ms-Dropdown-title {
+    color: var(--textSub) !important;
+    border-color: transparent !important;
+    background-color: var(--divHighlight) !important;
+}
+
+.zvHNjoYTCEdTz-cz8aFbr {
+    color: var(--textMain) !important;
+    /* z-index: 1; */
+}
+
+html[dir] ._2BJrr7ZW18iMaVb_GyqbrA:focus-within {
+    background: var(--wallpaper) !important;
+}
+
+._235mcfnXWsRI2u15SM34fb._2dkRc_3TcIEkbyBHRTBilK:focus-within {
+    border: 1px solid var(--tLightBlue) !important;
+    border-width: 1px 0 1px 0 !important;
+}
+
+.dropdown-227 {
+    color: var(--textSub) !important;
+    border-color: var(--inputField) !important;
+    /* box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    position: relative;
+    outline: 0px;
+    user-select: none; */
+}
 /* 固定ヘッダー ↑↑ */
 
 /* ↓↓ レフトサイドバー ↓↓ */

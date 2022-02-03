@@ -31,7 +31,13 @@
         "matches": [
             "https://outlook.office365.com/mail/*"
         ],
-        "js": [],
+        "js": [
+            "js/jquery-3.6.0.min.js",
+            "js/enums.js",
+            "js/lib.js",
+            "content_scripts/outlook/outlookLib.js",
+            "content_scripts/outlook/outlookOnload.js"
+        ],
         "css": [
             "content_scripts/root.css",
             "content_scripts/outlook/common.css"
