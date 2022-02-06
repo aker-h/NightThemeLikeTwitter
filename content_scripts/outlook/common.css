@@ -142,6 +142,26 @@ html[dir] ._2BJrr7ZW18iMaVb_GyqbrA:focus-within {
     outline: 0px;
     user-select: none; */
 }
+
+._1A9lFx5niCDFyCH8SSaY2- {
+    color: var(--textSub) !important;
+    /* width: 48px;
+    height: 48px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative; */
+}
 /* 固定ヘッダー ↑↑ */
 
 /* ↓↓ レフトサイドバー ↓↓ */
@@ -209,6 +229,23 @@ a._1f_xZYaR76amiIfYIOmZIX.o365sx-neutral-accent-hover-background.o365sx-neutral-
     color: var(--textMainDis) !important;
 }
 
+
+.FAdEbQISkGJuszLsyYq5z ._1LmT2pyh06k_FxmBeyjKZG span .XosamnChUoOcR_dGIrHqq._1n9vI5wg5bqCLmNAR5woLV:hover {
+    border-color: var(--borderline) !important;
+}
+
+.o365cs-base .o365sx-neutral-foregroundAlt-background, .o365cs-base .o365sx-neutral-foregroundAlt-hover-background:hover {
+    background-color: var(--tLightGray) !important;
+    color: var(--textBlack) !important;
+}
+
+.o365cs-base ._2HD3pqTJJLkz12NzBrj1LB:hover {
+    border-color: var(--borderline) !important;
+    box-shadow: var(--shadow) !important;
+    /* transition: border-color .167s linear,box-shadow .167s linear;
+    text-decoration: none;
+    outline: none; */
+}
 /* ↑↑ レフトサイドバー ↑↑ */
 
 /* ↓↓ レフトアイテムバー ↓↓ */
@@ -221,7 +258,7 @@ a._1f_xZYaR76amiIfYIOmZIX.o365sx-neutral-accent-hover-background.o365sx-neutral-
 }
 
 .f1ctqxl6 {
-    background-color: var(--borderline) !important;
+    background-color: var(--wallpaper) !important;
 }
 
 .f1vdjgj::before {
@@ -233,6 +270,10 @@ a._1f_xZYaR76amiIfYIOmZIX.o365sx-neutral-accent-hover-background.o365sx-neutral-
 
 .fui-FluentProvider.fui-FluentProvider1.___1g0n495.f19n0e5.fxugw4r.fk6fouc.fkhj508.figsok6 {
     border-right: 1px solid var(--borderline) !important;
+}
+
+.f1ee9zpc:hover button {
+    background: var(--divHighlight) !important;
 }
 /* ↑↑ レフトアイテムバー ↑↑ */
 
@@ -276,6 +317,58 @@ html[dir] ._2nxYvsT9VmpG24V7lwcfcu {
 
 html[dir] ._3I_zSwwDZFYNmkWij4VI2F {
     background-color: var(--wallpaper) !important;
+}
+
+._3YkNJYKjMvYWaDLQ_t6D9-, ._3YkNJYKjMvYWaDLQ_t6D9- .ms-Button-icon, ._3YkNJYKjMvYWaDLQ_t6D9- .ms-Button-menuIcon {
+    color: var(--tLightBlue) !important;
+}
+
+html[dir] ._3YkNJYKjMvYWaDLQ_t6D9-:hover, html[dir] ._3YkNJYKjMvYWaDLQ_t6D9-:hover .ms-Button-icon, html[dir] ._3YkNJYKjMvYWaDLQ_t6D9-:hover .ms-Button-menuIcon {
+    background: var(--tLightBlueBg) !important;
+}
+
+html[dir] ._3RzT6xOXHMpP9a5SLXbzC4:not(.Z2ln219tDs477eDBvVnsK):hover, html[dir] ._3RzT6xOXHMpP9a5SLXbzC4:not(.Z2ln219tDs477eDBvVnsK):hover .ms-Button-icon, html[dir] ._3RzT6xOXHMpP9a5SLXbzC4:not(.Z2ln219tDs477eDBvVnsK):hover .ms-Button-menuIcon {
+    background: var(--tLightBlueBg) !important;
+}
+
+.root-185 {
+    color: var(--textSub) !important;
+    /* outline: transparent;
+    position: relative;
+    font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-width: initial;
+    border-style: none;
+    border-image: initial;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+    padding: 0px 4px;
+    border-radius: 0px;
+    min-width: 40px;
+    background-color: var(--white);
+    height: 34px;
+    border-color: var(--neutralLighter);
+    user-select: none; */
+}
+
+.root-185 .ms-Button-icon {
+    color: var(--textSub) !important;
+}
+
+.ms-Button._3RzT6xOXHMpP9a5SLXbzC4._2s0A-A7NEhCVkip2jfI4KG.ms-Button--commandBar.is-disabled.Z2ln219tDs477eDBvVnsK.ms-CommandBarItem-link.root-185:hover {
+    background: var(--divHighlight) !important;
+}
+
+._24FpkalvW30l66zFUdkI8G div div ._2f5JzhIau1fYVnCdnF6jed._3kaE-lp56xiPtiBK5bJWgr._2e45YSYkafAibqL8u3c2wj {
+    background-color: var(--divHighlight) !important;
+}
+
+._1PkXPyxM3Hhk5H6YNvwMa1._3kaE-lp56xiPtiBK5bJWgr:hover .ms-Button.ms-Button--icon._249vbXlEbh-_Zlg2_z89J3._3Tc12ptS8HtxbTLAGzivrO.root-174 .ms-Button-flexContainer.flexContainer-159 .ms-Button-icon._3xjtFZiBm1DrWK64r3hZWK._2D6wm1spPIPn1G8mum7M8h.flipForRtl.icon-176 {
+    color: var(--textMain) !important;
 }
 
 ._3xjtFZiBm1DrWK64r3hZWK {
@@ -328,11 +421,15 @@ html[dir=ltr] ._3m1vczpYw71MBM0vWJJV5y {
     /* -webkit-box-shadow: inset -10px 0 10px -10px var(--blackTranslucent10);
     box-shadow: inset -10px 0 10px -10px var(--blackTranslucent10); */
 }
+
+html[dir=ltr] ._1mmhFz6xbEHFv6FfTUKPW2 {
+    border-right: 1px solid var(--borderline) !important;
+}
 /* ↑↑ レフトペイン ↑↑ */
 
 /* ↓↓ ミドルペイン ↓↓ */
 html[dir] .w4T91TVJrRh9QNUdePUM0 {
-    background-color: var(--card) !important;
+    background-color: var(--wallpaper) !important;
     border-bottom: 1px solid var(--borderline) !important;
 }
 .root-177 {
@@ -342,7 +439,37 @@ html[dir] .w4T91TVJrRh9QNUdePUM0 {
     font-size: 14px;
     display: flex;
     padding: 0px 14px 0px 0px;
+    height  : 44px; */
+}
+
+.root-178 {
+    background: var(--wallpaper) !important;
+    /* font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    display: flex;
+    padding: 0px 14px 0px 0px;
     height: 44px; */
+}
+
+._2f5JzhIau1fYVnCdnF6jed._3kaE-lp56xiPtiBK5bJWgr:hover .EyQ84bEUGumKAw5-dGNKI .root-177 {
+    background: var(--divHighlight) !important;
+}
+
+html[dir] ._2f5JzhIau1fYVnCdnF6jed._2e45YSYkafAibqL8u3c2wj {
+    background-color: var(--divHighlightDouble)!important;
+}
+
+._2f5JzhIau1fYVnCdnF6jed._2e45YSYkafAibqL8u3c2wj .EyQ84bEUGumKAw5-dGNKI .root-177 {
+    background: var(--divHighlightDouble) !important;
+}
+
+html[dir] ._2f5JzhIau1fYVnCdnF6jed._2e45YSYkafAibqL8u3c2wj:hover {
+    background: var(--divHighlight) !important;
+}
+
+html[dir] ._2f5JzhIau1fYVnCdnF6jed._4PTFGfGNvwm6oUh9tzojf ._2f5JzhIau1fYVnCdnF6jed:active:not(.d4wZ77_wLxg1bSKLqEfX7), html[dir] ._2f5JzhIau1fYVnCdnF6jed:hover:not(.LY59tV7oDi_ekjfK_th9x) {
+    background-color: var(--divHighlight) !important;
 }
 
 html[dir] ._29Z3GpJ-h4tXQCOYyShJDr {
@@ -484,6 +611,46 @@ html[dir] ._1uwuAQ2QH43CUW4Q39EvLG {
 html[dir=ltr] ._1n2-cmjz7wai2ImcUAHRgH._1yeTnoNkSL8TQYVNlv8s43 {
     border-left-color: var(--tLightGreen) !important;
 }
+
+._2XMKAP__36nlIDkPeGTX6O._29Z3GpJ-h4tXQCOYyShJDr._2pK1doJG-kt3aHOz9-MuVh._28eQjCeoIvuoWezEN6I1TD._1HRYUlyNJxKAmWRwU1hRUW.mp261qEkOekw5ILfUt_db {
+    background: transparent !important;
+}
+
+.ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174 {
+    color: var(--textSub) !important;
+}
+
+.ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174[aria-label=未開封にする]:hover,
+.ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174[aria-label=開封済みにする]:hover {
+    color: var(--tLightBlue) !important; 
+}
+.ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174[aria-label=このメッセージにフラグを付ける]:hover {
+    color: var(--tLightGreen) !important; 
+}
+.ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174[aria-label=このメッセージを常にフォルダーの先頭に表示する]:hover {
+    color: var(--tPink) !important; 
+}
+
+._2XMKAP__36nlIDkPeGTX6O._29Z3GpJ-h4tXQCOYyShJDr._2pK1doJG-kt3aHOz9-MuVh._28eQjCeoIvuoWezEN6I1TD._1HRYUlyNJxKAmWRwU1hRUW.mp261qEkOekw5ILfUt_db .ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174[aria-label=未開封にする]:hover,
+._2XMKAP__36nlIDkPeGTX6O._29Z3GpJ-h4tXQCOYyShJDr._2pK1doJG-kt3aHOz9-MuVh._28eQjCeoIvuoWezEN6I1TD._1HRYUlyNJxKAmWRwU1hRUW.mp261qEkOekw5ILfUt_db .ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174[aria-label=開封済みにする]:hover {
+    background-color: var(--tLightBlueBg) !important;
+}
+
+._2XMKAP__36nlIDkPeGTX6O._29Z3GpJ-h4tXQCOYyShJDr._2pK1doJG-kt3aHOz9-MuVh._28eQjCeoIvuoWezEN6I1TD._1HRYUlyNJxKAmWRwU1hRUW.mp261qEkOekw5ILfUt_db .ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174[aria-label=このメッセージにフラグを付ける]:hover {
+    background-color: var(--tLightGreenBg) !important;
+}
+
+._2XMKAP__36nlIDkPeGTX6O._29Z3GpJ-h4tXQCOYyShJDr._2pK1doJG-kt3aHOz9-MuVh._28eQjCeoIvuoWezEN6I1TD._1HRYUlyNJxKAmWRwU1hRUW.mp261qEkOekw5ILfUt_db .ms-Button._2V1cYkSGkt2ILqtY7JtrZ4._24HWQfh2dYswYUsTsCac5t.ms-Button--icon.root-174[aria-label=このメッセージを常にフォルダーの先頭に表示する]:hover {
+    background-color: var(--tPinkBg) !important;
+}
+
+._1n2-cmjz7wai2ImcUAHRgH:hover ._2HVMjLCKncxtDgDMzlqtZQ:hover._1iwiJrN5xkH8frMzztH-_n {
+    color: var(--tRed) !important;
+}
+
+html[dir] ._1n2-cmjz7wai2ImcUAHRgH:hover ._2HVMjLCKncxtDgDMzlqtZQ:hover._1iwiJrN5xkH8frMzztH-_n {
+    background: var(--tRedBg) !important;
+}
 /* ↑↑ ミドルペイン ↑↑ */
 
 /* ↓↓ ライトペイン ↓↓ */
@@ -508,7 +675,77 @@ html[dir] ._2qM5JFJlSDFbw17aZw2PSp {
     color: var(--textSub) !important;
     /* font-size: 14px; */
 }
+
+html[dir] ._18Sy4grXNeT6XfdUGN6qj.NN4ve7-zXI11J6Er51ULd, html[dir] ._3BL964mseejjC_nzEeda9o.NN4ve7-zXI11J6Er51ULd {
+    border: 1px solid var(--borderline) !important;
+    box-shadow: var(--shadow) !important;
+}
+
+html[dir] ._3BL964mseejjC_nzEeda9o {
+    background: var(--wallpaper) !important;
+    /* padding: 0 12px 12px 12px; */
+}
+
+.kECBnJ3yiP6qYA3x09fyj, ._3274s_7xHm3jhAV8u_An3v, ._3HWDmPvwbfbJdx0zvu6Bve {
+    color: var(--textMain) !important;
+    /* font-size: 14px;
+    font-weight: 400; */
+}
+
+._24i22iNhbLz_Hc8BeXBUwc {
+    color: var(--textMainDis) !important;
+    /* font-size: 12px;
+    font-weight: 400; */
+}
+
+._2rDm8onO3AzHL_RgEizmFz, ._33DdLc91Do1uLzjVVQrYVm {
+    color: var(--textMainDis) !important;
+    /* font-size: 12px;
+    font-weight: 400;
+    position: relative; */
+}
+
+._2Qk4AbDuWwkuLB005ds2jm {
+    color: var(--textMain) !important;
+    /* font-size: 15px;
+    font-weight: 400; */
+}
+
+html[dir=ltr] ._3CbLhTPTmpzMzBFyiGPfe4 {
+    border-left: 1px solid var(--tLightBlue) !important;
+    color: var(--textMainDis) !important;
+}
+
+html[dir] ._2SAgzfLK_5Ndk0nG1HhYMs {
+    border-bottom-color: var(--borderline) !important;    
+    /* border-bottom: 1px solid; */
+}
+
+html[dir] ._18Sy4grXNeT6XfdUGN6qj, html[dir] ._3BL964mseejjC_nzEeda9o {
+    border: 1px solid var(--borderline) !important;
+    box-shadow: var(--shadow) !important;
+    /* border-radius: 2px; */
+}
+
+html[dir] ._18Sy4grXNeT6XfdUGN6qj {
+    background: var(--wallpaper) !important;
+    /* padding: 0 12px; */
+}
+
+html[dir] ._18Sy4grXNeT6XfdUGN6qj:hover {
+    background-color: var(--divHighlight) !important;
+}
+
+._1xO8hCYBq-GOaGwTvCz4C1 {
+    color: var(--textSub) !important;
+    /* font-size: 12px;
+    font-weight: 400; */
+}
 /* ↑↑ ライトペイン ↑↑ */
+
+.ms-Persona-initials .root-177 {
+    background: transparent !important;
+}
 
 /* ↓↓ ○○○○○○○○ ↓↓ */
 /* ↑↑ ○○○○○○○○ ↑↑ */

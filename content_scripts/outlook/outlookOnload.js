@@ -1,10 +1,11 @@
 (async () => {
-    await forLoad()
-    .then(() => {
-        changeBorderline();
-    });
+    // forLoadPage()
+    // .then(() => {});
 
-    aboutSearchBox();
+    // forLoadContainer()
+    // .then(() => {});
+
+    aboutSearchBox();    
 
     return PROMISE;
 })();

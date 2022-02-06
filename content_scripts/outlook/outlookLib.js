@@ -1,26 +1,25 @@
-async function forLoad () {
-    return new Promise((resolve) => {
-        let i = 0;   
+async function forLoadPage () {
+    return new Promise((resolve, reject) => {
+        let i = 0;
 
         let interval = setInterval(() => {
-            console.log(`${i++} tics...`);
-    
             if (i > 10000) {
                 clearInterval(interval);
+                reject();                
             }
-    
-            let container = document.getElementsByClassName('_1LmT2pyh06k_FxmBeyjKZG');
-    
-            if (container.length !== 0) {
+
+            let selectReadItems = document.getElementsByClassName('_1_LF6iyxUqH0itpuq8ym7O _3ligwDaozp-8EXrUpQSWK3');
+
+            if (selectReadItems.length !== 0) {
                 clearInterval(interval);
-                console.log('unchi!');
-                resolve();        
+                resolve();
             }
-        }, 100);         
-    });        
+        }, 100);
+    });
 };
 
 async function changeBorderline () {
+    logEvent('Progress to changeBorderline().', SRC_OL_LIB, getIndex());
     function addCss (divs) {
         console.log(divs)
 
@@ -70,8 +69,4 @@ async function changeBorderline () {
     });
 };
 
-function aboutSearchBox () {
-    if ($('..zvHNjoYTCEdTz-cz8aFbr._2lLlk08mQ2bHr7vkEJGdKo').is(':focus')) {
-        $('#searchScopeWrapperId').css('border-color', '1px 0 1px 1px solid var(--tLightBlue)')
-    }
-};
+function aboutSearchBox () {};

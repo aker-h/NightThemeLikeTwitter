@@ -29,7 +29,8 @@
         "all_frames": true
     },{
         "matches": [
-            "https://outlook.office365.com/mail/*"
+            "https://outlook.office365.com/mail/*",
+            "https://outlook.office.com/mail/*"
         ],
         "js": [
             "js/jquery-3.6.0.min.js",
