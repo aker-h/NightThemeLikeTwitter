@@ -30,6 +30,7 @@
 
     /* アイテム */
     --wallpaper: #15202b;
+    --wallpaperDark: #000c19;
     --wallpaperBlur: rgba(21, 32, 43, 0.75);
     --inputField: #253341;
     --card: #192734;

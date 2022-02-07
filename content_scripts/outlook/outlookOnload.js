@@ -1,6 +1,8 @@
 (async () => {
-    // forLoadPage()
-    // .then(() => {});
+    forLoadPage()
+    .then(() => {
+        overrideElementStyles ();
+    });
 
     // forLoadContainer()
     // .then(() => {});

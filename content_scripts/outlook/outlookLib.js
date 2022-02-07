@@ -70,3 +70,35 @@ async function changeBorderline () {
 };
 
 function aboutSearchBox () {};
+
+function overrideElementStyles () {
+    //レフトアイテムバー
+    try {
+        function change () {
+            let divsOuter = document.getElementsByClassName('___thwl1f0 f1022m68');
+            
+            for (let divOuter of divsOuter) {
+                let svg = divOuter.getElementsByTagName('svg')[0];
+                if (svg === undefined) {
+                    return;
+                }
+
+                let fill = svg.getAttribute('fill');
+
+                fill = fill.replace('#0078D7', 'var(--tLightBlue)').replace('#616161', 'var(--textSub)');
+
+                svg.setAttribute('fill', fill);
+            }
+        };
+
+        change();
+
+        $('.___1rqqcv9.f10pi13n.f8491dx.f1ee9zpc').hover((event) => {
+            //console.log(event.type);
+            setTimeout(change, 10, false);
+        }, (event) => {
+            //console.log(event.type);
+            setTimeout(change, 10, false);
+        });
+    } catch (e) {console.log(e);}
+};

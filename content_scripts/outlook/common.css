@@ -162,7 +162,148 @@ html[dir] ._2BJrr7ZW18iMaVb_GyqbrA:focus-within {
     cursor: pointer;
     position: relative; */
 }
+
+html[dir] ._1K60rcUoF-ZNXPf1_pGTrF {
+    background-color: transparent !important;
+    /* background: none;
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0; */
+}
+
+._1K60rcUoF-ZNXPf1_pGTrF {
+    color: var(--textSub) !important;
+    /* color: inherit;
+    font: inherit;
+    cursor: pointer;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 16px;
+    height: 100%;
+    width: 32px; */
+}
+
+._9dA_xr3vzsMBc_EllUzxD {
+    color: var(--textSub) !important;
+}
+
+.dropdown-583 {
+    color: var(--textSub) !important;
+    /* box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    border-color: var(--neutralSecondary);
+    position: relative;
+    outline: 0px;
+    user-select: none; */
+}
+
+.dropdown-583:hover .ms-Dropdown-title {
+    color: var(--textMainDis) !important;
+    /* border-color: var(--neutralPrimary); */
+}
+
+.caretDown-585 {
+    color: var(--textSub) !important;
+    /* display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: controlIcons;
+    font-size: 16px;
+    pointer-events: none; */
+}
+
+.dropdown-583:hover .caretDown-585 {
+    color: var(--textMainDis) !important;
+}
+
+._1htvc5m-0WoXMAUtDIUnYG {
+    color: var(--textSub) !important;
+    /* -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 16px;
+    height: 100%;
+    width: 44px; */
+}
 /* 固定ヘッダー ↑↑ */
+
+/* ↓↓ 検索候補 ↓↓ */
+#searchSuggestionsCallout .ms-Callout-main{
+    background-color: var(--wallpaper) !important;
+    border: 1px solid var(--tLightBlue) !important;
+    box-shadow: var(--shadow) !important;
+    /* overflow: hidden auto;
+    position: relative;
+    width: 100%;
+    border-radius: 2px; */
+}
+
+._3cKIRFOnqQ6gfKYpEd6zFV {
+    color: var(--textSub) !important;
+}
+
+html[dir] ._1yN-2RY-MBaK8p4XBQETPt:hover {
+    background-color: var(--divHighlightDouble) !important;
+}
+
+html[dir] ._1yN-2RY-MBaK8p4XBQETPt:hover .RWpBc_o_v_95R5yXLwSYd.root-177 {
+    background: var(--divHighlightDouble) !important;
+}
+
+.RWpBc_o_v_95R5yXLwSYd, ._1cc9k3suxtaNjI2qls9Hyn:hover ._3SbuCUsVJf-1EKpQB7elXP, ._2JFzH-p-1ieTgPhOA-fk6h ._3SbuCUsVJf-1EKpQB7elXP {
+    color: var(--textSub) !important;
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 16px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 44px; */
+}
+
+._3TxuuJtqxFo_Bx_byYkj6J, .fmM0Eoc2D-r-jGmEFb-DR, ._2mSnSooJZhyZXTjEvXdQVv {
+    color: var(--textMain) !important;
+    /* display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: top;
+    white-space: pre; */
+}
+
+.secondaryText-590, .ms-Persona-secondaryText {
+    color: var(--textMainDis) !important;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    height: 16px;
+    line-height: 16px; */
+}
+
+html[dir] ._1L0Q0mM06z-wYLt8tdsUUB {
+    background-color: var(--borderline) !important;
+    /* border: none;
+    margin: 0; */
+}
+
+._6XuaEEOIfLxUc2S-mx5xt {
+    color: var(--textSub) !important;
+}
+/* ↑↑ 検索候補 ↑↑ */
 
 /* ↓↓ レフトサイドバー ↓↓ */
 .o365cs-base .o365sx-neutral-foreground-background, .o365cs-base .o365sx-neutral-foreground-hover-background:hover {
@@ -464,6 +605,10 @@ html[dir] ._2f5JzhIau1fYVnCdnF6jed._2e45YSYkafAibqL8u3c2wj {
     background: var(--divHighlightDouble) !important;
 }
 
+._24FpkalvW30l66zFUdkI8G ._2f5JzhIau1fYVnCdnF6jed._3kaE-lp56xiPtiBK5bJWgr._2e45YSYkafAibqL8u3c2wj {
+    background-color: var(--divHighlightDouble) !important;
+}
+
 html[dir] ._2f5JzhIau1fYVnCdnF6jed._2e45YSYkafAibqL8u3c2wj:hover {
     background: var(--divHighlight) !important;
 }
@@ -485,6 +630,10 @@ html[dir] ._3H-aDJS5lve7ygwD0TXE6R {
 }
 
 ._3TFJ6hWkkSKUtXUmmBYdBd._2yY8aBdtjO4JcToI6x-A-r {
+    color: var(--textMain) !important;
+}
+
+._3TFJ6hWkkSKUtXUmmBYdBd {
     color: var(--textMain) !important;
 }
 
@@ -651,6 +800,10 @@ html[dir=ltr] ._1n2-cmjz7wai2ImcUAHRgH._1yeTnoNkSL8TQYVNlv8s43 {
 html[dir] ._1n2-cmjz7wai2ImcUAHRgH:hover ._2HVMjLCKncxtDgDMzlqtZQ:hover._1iwiJrN5xkH8frMzztH-_n {
     background: var(--tRedBg) !important;
 }
+
+html[dir] ._3PlNpKPPQchwjIYfcUSrwi {
+    background-color: var(--wallpaperDark) !important;
+}
 /* ↑↑ ミドルペイン ↑↑ */
 
 /* ↓↓ ライトペイン ↓↓ */
@@ -682,7 +835,7 @@ html[dir] ._18Sy4grXNeT6XfdUGN6qj.NN4ve7-zXI11J6Er51ULd, html[dir] ._3BL964mseej
 }
 
 html[dir] ._3BL964mseejjC_nzEeda9o {
-    background: var(--wallpaper) !important;
+    background: var(--card) !important;
     /* padding: 0 12px 12px 12px; */
 }
 
@@ -728,12 +881,13 @@ html[dir] ._18Sy4grXNeT6XfdUGN6qj, html[dir] ._3BL964mseejjC_nzEeda9o {
 }
 
 html[dir] ._18Sy4grXNeT6XfdUGN6qj {
-    background: var(--wallpaper) !important;
+    background: var(--card) !important;
     /* padding: 0 12px; */
 }
 
 html[dir] ._18Sy4grXNeT6XfdUGN6qj:hover {
-    background-color: var(--divHighlight) !important;
+    background-color: var(--cardHighlight) !important;
+    border: 1px solid var(--borderline) !important; 
 }
 
 ._1xO8hCYBq-GOaGwTvCz4C1 {
@@ -741,11 +895,102 @@ html[dir] ._18Sy4grXNeT6XfdUGN6qj:hover {
     /* font-size: 12px;
     font-weight: 400; */
 }
+
+html[dir] .LXc0AFtlSiX4R6aYow6BV {
+    background-color: var(--wallpaperBlur) !important;
+    backdrop-filter: blur(12px) !important;
+}
+
+._2bnn4NUZa-NanNIO4GItP0 {
+    color: var(--textSub) !important;
+    /* font-size: 17px;
+    font-weight: 300;
+    font-weight: 600;
+    display: inline;
+    word-break: break-word; */
+}
+
+html[dir] ._2BccY5KAu3TwOwcFElMtGS:hover {
+    background-color: var(--cardHighlight) !important;
+    border: 1px solid var(--borderline) !important;
+}
+
+.body-155 {
+    background: transparent !important;
+    /* color: var(--neutralPrimary);
+    font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased; */
+}
+
+html[dir] ._1ZX62iM9tZculzHA923LTX:hover:not([disabled]) {
+    background-color: var(--cardHighlight) !important;
+    border: 1px solid var(--borderline) !important; 
+}
+
+._3elxfLs8GcU_Dugz30Zho0 {
+    color: var(--tLightBlue) !important;
+}
+
+._2BccY5KAu3TwOwcFElMtGS._3STduknLPfM7K-CoVTL9Zp.ms-Button .ms-Button-icon, ._2BccY5KAu3TwOwcFElMtGS._3STduknLPfM7K-CoVTL9Zp.ms-Button .ms-Button-menuIcon, ._2BccY5KAu3TwOwcFElMtGS:active.ms-Button .ms-Button-icon, ._2BccY5KAu3TwOwcFElMtGS:active.ms-Button .ms-Button-menuIcon, ._2BccY5KAu3TwOwcFElMtGS:hover.ms-Button .ms-Button-icon, ._2BccY5KAu3TwOwcFElMtGS:hover.ms-Button .ms-Button-menuIcon {
+    color: var(--tLightBlueOn) !important;    
+}
+
+._1ZX62iM9tZculzHA923LTX:active:not([disabled]).ms-Button, ._1ZX62iM9tZculzHA923LTX:hover:not([disabled]).ms-Button {
+    color: var(--tLightBlueOn) !important;
+}
+
+html[dir] ._2iWl1qSrTwtGaG9a-cxEKS {
+    background-color: var(--tLightGray) !important;
+    /* margin-top: 12px;
+    border-radius: 2px; */
+}
+
+html[dir] ._2iWl1qSrTwtGaG9a-cxEKS:hover {
+    background-color: var(--tLightGrayOn) !important;
+}
+
+html[dir=ltr] ._3QCsM9-LPIxe1EDTYYKDn0 {
+    border-left: 1px solid var(--borderline) !important;
+    color:var(--textMainDis) !important;
+}
+
+html[dir=ltr] ._3QCsM9-LPIxe1EDTYYKDn0 a {
+    color: var(--tLightBlue) !important;
+}
+
+._2GG5DCfEUIXZHxCIKRo7UB {
+    color: var(--textSub) !important;
+}
+
+html[dir] ._2GG5DCfEUIXZHxCIKRo7UB:hover {
+    background-color: var(--divHighlight) !important;
+    border: 1px solid var(--borderline) !important;
+}
 /* ↑↑ ライトペイン ↑↑ */
 
 .ms-Persona-initials .root-177 {
     background: transparent !important;
 }
+
+/* ↓↓ ロード中 ↓↓ */
+#loadingScreen {
+    background-color: var(--wallpaper) !important;
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+html[dir] body {
+    background-color: var(--wallpaper) !important;
+}
+
+html[dir] ._3cGn21Hgi7DFUbUhlRCP46 {
+    background-color: var(--wallpaper) !important;
+}
+/* ↑↑ ロード中 ↑↑ */
 
 /* ↓↓ ○○○○○○○○ ↓↓ */
 /* ↑↑ ○○○○○○○○ ↑↑ */
