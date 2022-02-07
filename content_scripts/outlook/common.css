@@ -233,6 +233,19 @@ html[dir] ._1K60rcUoF-ZNXPf1_pGTrF {
     height: 100%;
     width: 44px; */
 }
+
+html[dir] ._1K60rcUoF-ZNXPf1_pGTrF {
+    background-color: var(--inputField) !important;
+    /* background: none;
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0; */
+}
+
+html[dir] ._2dkRc_3TcIEkbyBHRTBilK ._2BJrr7ZW18iMaVb_GyqbrA:focus-within button.ms-Button.ms-Button--icon._1K60rcUoF-ZNXPf1_pGTrF.root-174 {
+    background: var(--wallpaper) !important;
+    border-right: 1px solid var(--tLightBlue) !important;
+}
 /* 固定ヘッダー ↑↑ */
 
 /* ↓↓ 検索候補 ↓↓ */
@@ -991,6 +1004,9 @@ html[dir] ._3cGn21Hgi7DFUbUhlRCP46 {
     background-color: var(--wallpaper) !important;
 }
 /* ↑↑ ロード中 ↑↑ */
+
+/* ↓↓ コンテクストメニュー ↓↓ */
+/* ↑↑ コンテクストメニュー ↑↑ */
 
 /* ↓↓ ○○○○○○○○ ↓↓ */
 /* ↑↑ ○○○○○○○○ ↑↑ */
