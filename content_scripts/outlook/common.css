@@ -242,9 +242,8 @@ html[dir] ._1K60rcUoF-ZNXPf1_pGTrF {
     padding-top: 0; */
 }
 
-html[dir] ._2dkRc_3TcIEkbyBHRTBilK ._2BJrr7ZW18iMaVb_GyqbrA:focus-within button.ms-Button.ms-Button--icon._1K60rcUoF-ZNXPf1_pGTrF.root-174 {
-    background: var(--wallpaper) !important;
-    border-right: 1px solid var(--tLightBlue) !important;
+button.ms-Button.ms-Button--icon._1K60rcUoF-ZNXPf1_pGTrF.root-174 {
+    background: var(--inputField) !important;
 }
 /* 固定ヘッダー ↑↑ */
 
