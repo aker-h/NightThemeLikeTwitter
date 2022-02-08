@@ -24,7 +24,8 @@
         "css": [
             "content_scripts/root.css",
             "content_scripts/google/common.css",
-            "content_scripts/google/search.css"
+            "content_scripts/google/search.css",
+            "content_scripts/google/preferences.css"
         ],
         "all_frames": true
     },{

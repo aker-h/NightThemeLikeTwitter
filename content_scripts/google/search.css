@@ -733,8 +733,173 @@ hr {
 /* ↑↑ 翻訳 ↑↑ */
 
 /* ↓↓ Twitterなどのカード ↓↓ */
+a.Ndm45b {
+    color: var(--textSub) !important;
+}
 
+.kLhEKe {
+    background-color: transparent !important;
+    /* margin-top: 0;
+    padding-bottom: 16px;
+    padding-top: 12px;
+    line-height: 14px; */
+}
+
+.Ywxp6b {
+    color: var(--textMainDis) !important;
+}
+
+.f {
+    color: var(--textSub) !important;
+    /* line-height: 1.58; */
+}
 /* ↑↑ Twitterなどのカード ↑↑ */
+
+/* ↓↓ 右側の埋め込み ↓↓ */
+.kno-ecr-pt {
+    color: var(--textMain) !important;
+    /* line-height: 1.2;
+    margin-bottom: -3px;
+    overflow: hidden;
+    font-family: arial,sans-serif-light,sans-serif;
+    display: inline;
+    font-size: 30px;
+    font-weight: normal;
+    position: relative;
+    transform-origin: left top;
+    transform-origin: left top;
+    word-wrap: break-word; */
+}
+
+.I6TXqe {
+    background: var(--card) !important;
+    /* border-radius: 8px;
+    padding: 0 0 16px 0; */
+}
+
+.TQc1id .I6TXqe {
+    border: 1px solid var(--card) !important;
+}
+
+.wwUB2c {
+    color: var(--textSub) !important;
+    /* font-family: arial,sans-serif; */
+}
+
+.rsir2d {
+    color: var(--textSub) !important;
+}
+
+element.style {
+    border-bottom: 1px solid var(--borderline) !important;
+}
+
+.hb8SAc {
+    color: var(--textMainDis) !important;
+}
+
+body .w8qArf .fl {
+    color: var(--textMain) !important;
+}
+
+.r3IKmc {
+    color: var(--textMainDis) !important;
+}
+
+.H73aad {
+    background: var(--tLightGray) !important;
+    border: 1px solid var(--tLightGray) !important;
+    /* border-radius: 18px;
+    display: inline-block;
+    position: relative; */
+}
+
+.H73aad:hover {
+    background: var(--tLightGrayOn) !important;
+}
+
+.jleFbf {
+    color: var(--textBlack) !important;
+    /* display: inline-block;
+    font-size: 14px;
+    line-height: 1.58;
+    padding: 8px 16px 8px 36px; */
+}
+
+.kno-ftr.rpBMYb {
+    color: var(--textSub) !important;
+    /* display: flex;
+    flex-wrap: wrap-reverse;
+    font-size: 12px;
+    line-height: 1.34;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 4px 16px 0; */
+}
+/* ↑↑ 右側の埋め込み ↑↑ */
+
+/* ↓↓ ニュースとか ↓↓ */
+.aUSklf {
+    border-top: 1px solid var(--borderline) !important;
+}
+
+.S1FAPd {
+    color: var(--textSub) !important;
+    /* font-size: 12px;
+    line-height: 1.6666666666666667em;
+    margin-bottom: 0;
+    margin-top: 0; */
+}
+
+.GOE2if {
+    border-left: 1px solid var(--borderline) !important;
+    /* margin-top: 12px; */
+}
+
+.ez8jFf {
+    border-left: 1px solid var(--borderline) !important;
+}
+
+/* 他のニュース結果 */
+.UG0mTe {
+    color: var(--textSub) !important;
+    /* margin-bottom: 0;
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-left: -16px; */
+}
+
+.pb5vrc {
+    background-color: var(--borderline) !important;
+    /* border: 0;
+    height: 1px;
+    left: 0;
+    margin-top: 18px;
+    position: absolute;
+    width: 100%; */
+}
+
+.MXl0lf {
+    background: var(--tLightGray) !important;
+    /* border: 1px solid #dadce0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    pointer-events: auto;
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    padding: 7px 11px;
+    height: 36px;
+    border-radius: 18px; */
+}
+
+.MXl0lf:hover {
+    background: var(--tLightGrayOn) !important;
+}
+/* ↑↑ ニュースとか ↑↑ */
 
 /* ↓↓ ○○ ↓↓ */
 /* ↑↑ ○○ ↑↑ */
