@@ -37,6 +37,11 @@ html[dir] ._2BJrr7ZW18iMaVb_GyqbrA {
     background: var(--inputField) !important;
 }
 
+html[dir] .selectedInput button.ms-Button.ms-Button--icon._1K60rcUoF-ZNXPf1_pGTrF.root-174 {
+    background: var(--wallpaper) !important;
+    border-right: 1px solid var(--tLightBlue) !important;
+}
+
 ._3wQTSNV_3E8J5WJX_ST4dS .root-177 {
     background: var(--inputField) !important;
 }
@@ -91,9 +96,97 @@ html[dir] ._1UdOoVoWm0GAi3-FgPl1js {
 }
 
 html[dir] .xXen4f5RvBWqdMmwenc53 {
-    background-color: var(--inputField) !important;
+    background-color: var(--tLightGray) !important;
     /* border: 0;
     text-align: center; */
+}
+
+html[dir] .xXen4f5RvBWqdMmwenc53:hover {
+    background-color: var(--tLightGrayOn) !important;
+}
+
+.dropdown-229:hover .ms-Dropdown-title {
+    color: var(--textBlack) !important;
+    /* border-color: var(--neutralPrimary); */
+}
+
+.caretDown-245 {
+    color: var(--textBlack) !important;
+    /* display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: controlIcons;
+    font-size: 16px;
+    pointer-events: none; */
+}
+
+.calloutMain-427 {
+    background-color: var(--wallpaper) !important;
+    border: 1px solid var(--tLightBlue) !important;
+    box-shadow: var(--shadow) !important;
+    /* overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    border-radius: 2px;
+    overflow-y: hidden !important;
+    max-height: none !important; */
+}
+
+.dropdownItemSelected-428 {
+    color: var(--textMain) !important;
+    background-color: var(--divHighlightDouble) !important;
+    /* outline: transparent;
+    position: relative;
+    font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    display: flex;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+    padding: 0px 8px;
+    border-radius: 0px;
+    height: 0px;
+    align-items: center;
+    width: 100%;
+    min-height: 36px;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    user-select: none; */
+}
+
+.dropdownItem-431 {
+    color: var(--textMain) !important;
+    /* outline: transparent;
+    position: relative;
+    font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "MS Pgothic", Osaka, "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    display: flex;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+    padding: 0px 8px;
+    border-radius: 0px;
+    height: 0px;
+    background-color: transparent;
+    align-items: center;
+    width: 100%;
+    min-height: 36px;
+    line-height: 20px;
+    overflow-wrap: break-word;vk
+    user-select: none; */
+}
+
+.dropdownItem-431:hover {
+    color: var(--textMainDis) !important;
+    background: var(--divHighlight) !important;
 }
 
 .caretDown-250 {
@@ -125,7 +218,7 @@ html[dir] ._2BJrr7ZW18iMaVb_GyqbrA:focus-within {
 
 ._235mcfnXWsRI2u15SM34fb._2dkRc_3TcIEkbyBHRTBilK:focus-within {
     border: 1px solid var(--tLightBlue) !important;
-    border-width: 1px 0 1px 0 !important;
+    border-width: 1px 0 1px 1px !important;
 }
 
 .dropdown-227 {

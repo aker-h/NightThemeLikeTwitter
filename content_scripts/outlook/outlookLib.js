@@ -81,41 +81,9 @@ async function aboutSearchBox () {
             console.log($('._15bWZdL6EBmGvbujvNBUnQ > input'));            
 
             $('._15bWZdL6EBmGvbujvNBUnQ .zvHNjoYTCEdTz-cz8aFbr').focus((event) => {
-                //console.log(event.type);   
-
-                let rightButton = document.getElementById('searchBoxId-Mail').parentElement.children[1];
-
-                //console.log(button);
-
-                let rightStyle = 'background-color: var(--wallpaper) !important; border-right: 1px solid var(--tLightBlue);'
-
-                rightButton.setAttribute('style', rightStyle);
-
-                let leftButton = document.getElementById('searchScopeButtonId');
-
-                let leftStyle = 'background-color: var(--wallpaper) !important; border: 1px 0 1px 1px solid var(--tLightBlue) !important';
-
-                leftButton.setAttribute('style', leftStyle);
+                $('#searchBoxColumnContainerId').addClass('selectedInput');// rightButton.setAttribute('style', rightStyle);
             }).blur((event) => {
-                //console.log(event.type);
-
-                //console.log($(this));
-
-                let input = document.getElementsByClassName('zvHNjoYTCEdTz-cz8aFbr _2lLlk08mQ2bHr7vkEJGdKo')[0];
-
-                try {
-                    let str = input.value;
-
-                    //console.log(str);
-
-                    if (str !== null) {
-                        let rightButton = document.getElementById('searchBoxId-Mail').parentElement.children[1];
-
-                        let rightStyle = '';
-
-                        rightButton.setAttribute('style', rightStyle);
-                    }                   
-                } catch (e) {}       
+                $('#searchBoxColumnContainerId').removeClass('selectedInput');    
             });
         }
     }, 100);
