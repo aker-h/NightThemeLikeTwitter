@@ -1,0 +1,11 @@
+button {
+  border: 1px solid var(--borderline);
+  border-radius: 20px;
+  background-color: transparent;
+  color: var(--textMain);
+}
+
+button:hover {
+  background-color: var(--itemHighlight);
+}
+/*# sourceMappingURL=test.css.map */

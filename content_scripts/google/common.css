@@ -222,7 +222,7 @@ a.gb_f, span.gb_f {
     width: auto;*/
 }
 
-.o3j99.LLD4me.yr19Zb.LS8OJ {
+.o3j99.LLD4me/*.yr19Zb.LS8OJ, .o3j99.LLD4me.LS8OJ*/ {
     /*ロゴを差し込む*/
     background: var(--tLightBlue) !important;
     mask-image: url("/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png") !important;
@@ -233,6 +233,15 @@ a.gb_f, span.gb_f {
         -webkit-mask-size: 272px 92px !important;
         -webkit-mask-repeat: no-repeat !important;
         -webkit-mask-position: bottom center !important;
+}
+
+.SuUcIb {
+    display: none;
+    /* height: 24px;
+    width: 24px;
+    position: absolute;
+    right: -32px;
+    bottom: 12px; */
 }
 
 .lJ9FBc input[type="submit"], .gbqfba {

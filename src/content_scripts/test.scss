@@ -1,0 +1,14 @@
+button {
+    border: 1px solid var(--borderline);
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--textMain);
+
+    &:hover {
+        background-color: var(--itemHighlight);
+    }
+
+    &:disabled {
+        background-color: var(--wallpaper);
+    }
+}

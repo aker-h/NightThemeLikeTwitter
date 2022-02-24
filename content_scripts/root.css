@@ -1,5 +1,8 @@
 :root {  
     /* カラー */
+    --tBlack: #0f1419;
+    --tDarkGray: #0f1419;
+    --tDarkGrayOn: #272c30;
     --tIndigo: #7856ff;
     --tIndigoOn: #6c4de6;
     --tIndigoDis: #473b95;
@@ -20,13 +23,14 @@
     --tPinkBg: rgba(249, 24, 128, 0.1);
     --tRed: #f4212e;
     --tRedBg: rgba(244, 33, 46, 0.1);
+    --tWhite: #fff;
 
     /* テキスト */
-    --textMain: #fff;
+    --textMain: var(--white);
     --textMainDis: #8a8f95;
     --textSub: #8899a6;
     --textSubMarked: #253341;
-    --textBlack: #000;
+    --textBlack: var(--tBlack);
 
     /* アイテム */
     --wallpaper: #15202b;
@@ -40,4 +44,10 @@
     --divHighlightDouble: #242e38;
     --itemHighlight: #2d3741;
     --shadow: rgb(136 153 166 / 20%) 0px 0px 15px, rgb(136 153 166 / 15%) 0px 0px 3px 1px;
+    --mainBtn: var(--tLightBlue);
+    --mainBtnOn: var(--tLightBlueOn);
+    --mainBtnTxt: var(--textMain);
+    --subBtn: var(--tLightGray);
+    --subBtnOn: var(--tLightGrayOn);
+    --subBtnTxt: var(--textSub);
 }

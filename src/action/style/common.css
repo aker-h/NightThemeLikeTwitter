@@ -1,0 +1,7 @@
+html, body {
+  width: 310px;
+  height: 550px;
+  background-color: var(--wallpaper);
+  color: var(--textMain);
+}
+/*# sourceMappingURL=common.css.map */
