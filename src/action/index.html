@@ -2,18 +2,44 @@
 <html lang="ja">
     <html>
         <meta charset="utf8">
+        <link rel="stylesheet" href="" id="rootCss">
+        <style id="favoColor"></style>
         <link rel="stylesheet" href="style/common.css">
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <!-- <script src="/jquery-3.6.0.min.js"></script> -->
         <script src="../js/enums.js"></script>
         <script src="../js/lib.js"></script>
         <script src="script/actionLib.js"></script>
-        <script src="script/loadCDN.js"></script>
+        <!-- <script src="script/loadCDN.js"></script> -->
         <script src="script/actionOnload.js"></script>
     </html>
     <body>
         <header>
             <h2>Night Theme Like Twitter</h2>
-            <h3>Settings</h3>
         </header>
+        <div class="wrapper">
+            <label><h2>Theme</h2>
+                <div class="content" id="selectTheme">
+                    <div class="color-box light left">
+                        <input class="color-box--label--checkbox" id="colorBoxLabelLight" type="radio" name="colorBoxes">
+                        <label class="color-box--label" for="colorBoxLabelLight">
+                            Light
+                            <div class="color-box--inner light" id="colorBoxInnerLight"></div>
+                        </label>                        
+                    </div>
+                    <div class="color-box darkBlue right">
+                        <input class="color-box--label--checkbox" id="colorBoxLabelDarkBlue" type="radio" name="colorBoxes">
+                        <label class="color-box--label" for="colorBoxLabelDarkBlue">
+                            Dark Blue
+                            <div class="color-box--inner darkBlue" id="colorBoxInnerDarkBlue"></div>
+                        </label>                        
+                    </div>
+                </div>
+                <div class="content" id="selectColor">
+                    
+                </div>
+            </label>
+        </div>
         <footer></footer>
     </body>
 </html>

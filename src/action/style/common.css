@@ -1,7 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html, body {
+  margin: 0;
   width: 310px;
   height: 550px;
   background-color: var(--wallpaper);
   color: var(--textMain);
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
-/*# sourceMappingURL=common.css.map */
+
+header {
+  margin: 0 8px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+label h2 {
+  margin: 0 8px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.content {
+  margin: 8px;
+  width: 294px;
+}
+
+.content#selectTheme {
+  height: 150px;
+}
+
+.content .color-box {
+  width: 147px;
+  height: 100%;
+}
+
+.content .color-box--label--checkbox {
+  display: none;
+}
+
+.content .color-box--label--checkbox:checked + .color-box--label .color-box--inner {
+  border-color: var(--favoColor);
+}
+
+.content .color-box--label {
+  font-size: 16px;
+  color: var(--textMain);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.content .color-box--inner {
+  margin: 0 4px;
+  border: 2px solid var(--borderline);
+  border-radius: 10px;
+  width: 139px;
+  height: 100px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.content .color-box--inner:hover {
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+}
+
+.content .color-box--inner.light {
+  background-color: #fff;
+}
+
+.content .color-box--inner.darkBlue {
+  background-color: #15202b;
+}

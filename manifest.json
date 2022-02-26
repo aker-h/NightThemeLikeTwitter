@@ -22,10 +22,10 @@
         "exclude_matches":[],
         "js":[
             "js/jquery-3.6.0.min.js",
-            "js/enums.js",
-            "js/lib.js",
-            "content_scripts/google/commonLib.js",
-            "content_scripts/google/commonOnload.js"
+            "src/js/enums.js",
+            "src/js/lib.js",
+            "src/content_scripts/google/lib.js",
+            "src/content_scripts/google/onload.js"
         ],
         "css": [
             "content_scripts/root.css",
@@ -33,7 +33,8 @@
             "content_scripts/google/search.css",
             "content_scripts/google/preferences.css"
         ],
-        "all_frames": true
+        "all_frames": true,
+        "run_at": "document_start"
     },{
         "matches": [
             "https://outlook.office365.com/mail/*",
@@ -41,8 +42,8 @@
         ],
         "js": [
             "js/jquery-3.6.0.min.js",
-            "js/enums.js",
-            "js/lib.js",
+            "src/js/enums.js",
+            "src/js/lib.js",
             "content_scripts/outlook/outlookLib.js",
             "content_scripts/outlook/outlookOnload.js"
         ],
