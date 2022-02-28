@@ -15,9 +15,9 @@ class MyString extends String {
         pattern = pattern.replaceAll('<escapedAsterisk>', '\\*').replaceAll('<escapedQuestionMard>', '\\?')
         let reg = new RegExp(pattern, 'i');
 
-        console.log(reg);
+        // console.log(reg);
 
-        console.log(value.match(reg));
+        // console.log(value.match(reg));
 
         if (value.match(reg) !== null) {
             return true;
@@ -103,6 +103,11 @@ async function sleep (ms: number): Promise<void> {
 }
 
 //同期関数 (sync function)
+function changeFavoColor (innerHTML: string): void {
+    let favoColor: Element = document.getElementById('favoColor') as Element;
+    favoColor.innerHTML = innerHTML;
+}
+
 function createToastField (): void {
     let divToastArea: Element = document.createElement('div');
     divToastArea.className = 'toast-outer';
@@ -114,14 +119,20 @@ function generateStyleInnerHTMLforFavoColor (color: string): string {
     let colorName: string = '--tLightBlue';
 
     switch (color) {
-        case 'indigo':
-            colorName = '--tIndigo';
-            break;
         case 'lightGreen':
             colorName = '--tLightGreen';
             break;
+        case 'orange':
+            colorName = '--tOrange';
+            break;
         case 'pink':
-            colorName = '--tLightGreen';
+            colorName = '--tPink';
+            break;
+        case 'purple':
+            colorName = '--tPurple';
+            break;
+        case 'yellow':
+            colorName = '--tYellow';
             break;
         case 'lightBlue':
         default:

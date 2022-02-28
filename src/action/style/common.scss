@@ -78,3 +78,92 @@ label h2 {
         }
     }
 }
+
+.color-circle {
+    margin-left: 6px;
+}
+
+.color-circle--radio {
+    display: none;
+    width: 42px;
+    height: 42px;
+
+    &:checked + .color-circle--label:after {
+        opacity: 1;
+    }
+}
+
+.color-circle--label {
+    position: relative;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 42px;
+        height: 42px;
+        border-radius: 100%;
+        background-color: white;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;        
+        display: block;
+        width: 20px;
+        height: 12px;
+        border-bottom: 2px solid white;
+        border-left: 2px solid white;
+        transform: rotate(-45deg);
+        opacity: 0;
+    }
+
+    &.lightBlue:before {
+        background-color: var(--tLightBlue);        
+    }
+
+    &.lightBlue:hover:before {
+        background-color: var(--tLightBlueOn);
+    }
+    
+    &.yellow:before {
+        background-color: var(--tYellow);        
+    }
+
+    &.yellow:hover:before {
+        background-color: var(--tYellowOn);
+    }    
+
+    &.pink:before {
+        background-color: var(--tPink);        
+    }
+
+    &.pinke:hover:before {
+        background-color: var(--tPinkOn);
+    }    
+
+    &.purple:before {
+        background-color: var(--tPurple);        
+    }
+
+    &.purple:hover:before {
+        background-color: var(--tPurpleOn);
+    }    
+
+    &.orange:before {
+        background-color: var(--tOrange);        
+    }
+
+    &.orange:hover:before {
+        background-color: var(--tOrangeOn);
+    }    
+
+    &.lightGreen:before {
+        background-color: var(--tLightGreen);        
+    }
+
+    &.lightGreen:hover:before {
+        background-color: var(--tLightGreenOn);
+    }    
+}

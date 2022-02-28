@@ -1,6 +1,8 @@
 "use strict";
 //DOM構成中
 (async () => {
+    initializeThemeByStorageOnCs();
+    initializeFavoColorByStorageOnCs();
     if (onTopPageOfImageSearch(location.href)) {
         addLogoOfImageSearch();
     }

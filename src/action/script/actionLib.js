@@ -1,42 +1,86 @@
 "use strict";
 //非同期関数 (async function)
-async function initializeFavoColorByStorage() {
+async function initializeFavoColorByStorageOnAction() {
     return new Promise((resolve) => {
         chrome.storage.local.get({
             favo: 'lightBlue'
         }, (items) => {
-            console.log(items.favo);
+            console.log(items);
             let favo = items.favo;
-            let innerHTML = generateStyleInnerHTMLforFavoColor(favo.favo);
+            let innerHTML = generateStyleInnerHTMLforFavoColor(favo);
             let styleFavoColor = document.getElementById('favoColor');
             styleFavoColor.innerHTML = innerHTML;
+            logEvent(`Initialized Color is '${favo}.'`, SRC_ACTION_LIB, getIndex());
             resolve();
         });
     });
 }
-async function initializeThemeByStorage() {
+async function initializeThemeByStorageOnAction() {
     return new Promise((resolve) => {
         chrome.storage.local.get({
             theme: 'light'
         }, (items) => {
-            console.log(items.theme);
+            console.log(items);
             let theme = items.theme;
             let href = LIGHT_THEME;
-            if (theme.theme === 'darkBlue') {
+            if (theme === 'darkBlue') {
                 href = DARK_BLUE_THEME;
             }
             document.getElementById('rootCss')?.setAttribute('href', href);
+            logEvent(`Initialized Theme is '${theme}.'`, SRC_ACTION_LIB, getIndex());
             resolve();
         });
     });
 }
 //同期関数 (sync function)
+function addClickListenerForFavoColors() {
+    async function saveFavoColorToStorage(value) {
+        return new Promise((resolve) => {
+            let defaults = {
+                favo: value
+            };
+            chrome.storage.local.set(defaults, () => {
+                chrome.storage.local.get((items) => {
+                    console.log(items);
+                    resolve();
+                });
+            });
+        });
+    }
+    function change(color) {
+        let innerHTML = generateStyleInnerHTMLforFavoColor(color);
+        changeFavoColor(innerHTML);
+    }
+    $('#colorCircleLabelLightBlue').on('click', () => {
+        change('lightBlue');
+        saveFavoColorToStorage('lightBlue');
+    });
+    $('#colorCircleLabelYellow').on('click', () => {
+        change('yellow');
+        saveFavoColorToStorage('yellow');
+    });
+    $('#colorCircleLabelPink').on('click', () => {
+        change('pink');
+        saveFavoColorToStorage('pink');
+    });
+    $('#colorCircleLabelPurple').on('click', () => {
+        change('purple');
+        saveFavoColorToStorage('purple');
+    });
+    $('#colorCircleLabelOrange').on('click', () => {
+        change('orange');
+        saveFavoColorToStorage('orange');
+    });
+    $('#colorCircleLabelLightGreen').on('click', () => {
+        change('lightGreen');
+        saveFavoColorToStorage('lightGreen');
+    });
+}
 function addClickListenerForThemes() {
     async function saveThemeToStorage(value) {
         return new Promise((resolve) => {
-            let theme = { theme: value };
             let defaults = {
-                theme: theme
+                theme: value
             };
             chrome.storage.local.set(defaults, () => {
                 chrome.storage.local.get((items) => {
@@ -56,6 +100,31 @@ function addClickListenerForThemes() {
         rootCss.setAttribute('href', DARK_BLUE_THEME);
     });
 }
+function initializeSelectedColor() {
+    function select(color) {
+        $(`#colorCircle${color}`).prop('checked', true);
+    }
+    let inner = new MyString(document.getElementById('favoColor')?.innerHTML);
+    if (inner.isMatch('*--tLightBlue*')) {
+        select('LightBlue');
+    }
+    else if (inner.isMatch('*--tYellow*')) {
+        select('Yellow');
+    }
+    else if (inner.isMatch('*--tPink*')) {
+        select('Pink');
+    }
+    else if (inner.isMatch('*--tPurple*')) {
+        select('Purple');
+    }
+    else if (inner.isMatch('*--tOrange*')) {
+        select('Orange');
+    }
+    else if (inner.isMatch('*--tLightGreen*')) {
+        select('LightGreen');
+    }
+}
+;
 function initializeSelectedTheme() {
     let href = document.getElementById('rootCss')?.getAttribute('href');
     if (href === LIGHT_THEME) {

@@ -1,13 +1,15 @@
 "use strict";
 //DOM読込中
 (async () => {
-    initializeThemeByStorage();
-    initializeFavoColorByStorage();
+    initializeThemeByStorageOnAction();
+    initializeFavoColorByStorageOnAction();
     return VOID_PROMISE;
 })();
 //DOM構成後
 $(() => {
     addClickListenerForThemes();
+    addClickListenerForFavoColors();
     initializeSelectedTheme();
+    initializeSelectedColor();
     return;
 });

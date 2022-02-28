@@ -11,8 +11,8 @@ class MyString extends String {
         pattern = pattern.replaceAll('*', '.*').replaceAll('?', '.');
         pattern = pattern.replaceAll('<escapedAsterisk>', '\\*').replaceAll('<escapedQuestionMard>', '\\?');
         let reg = new RegExp(pattern, 'i');
-        console.log(reg);
-        console.log(value.match(reg));
+        // console.log(reg);
+        // console.log(value.match(reg));
         if (value.match(reg) !== null) {
             return true;
         }
@@ -81,6 +81,10 @@ async function sleep(ms) {
     });
 }
 //同期関数 (sync function)
+function changeFavoColor(innerHTML) {
+    let favoColor = document.getElementById('favoColor');
+    favoColor.innerHTML = innerHTML;
+}
 function createToastField() {
     let divToastArea = document.createElement('div');
     divToastArea.className = 'toast-outer';
@@ -91,14 +95,20 @@ function createToastField() {
 function generateStyleInnerHTMLforFavoColor(color) {
     let colorName = '--tLightBlue';
     switch (color) {
-        case 'indigo':
-            colorName = '--tIndigo';
-            break;
         case 'lightGreen':
             colorName = '--tLightGreen';
             break;
+        case 'orange':
+            colorName = '--tOrange';
+            break;
         case 'pink':
-            colorName = '--tLightGreen';
+            colorName = '--tPink';
+            break;
+        case 'purple':
+            colorName = '--tPurple';
+            break;
+        case 'yellow':
+            colorName = '--tYellow';
             break;
         case 'lightBlue':
         default:

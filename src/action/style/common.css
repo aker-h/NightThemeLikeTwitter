@@ -84,3 +84,93 @@ label h2 {
 .content .color-box--inner.darkBlue {
   background-color: #15202b;
 }
+
+.color-circle {
+  margin-left: 6px;
+}
+
+.color-circle--radio {
+  display: none;
+  width: 42px;
+  height: 42px;
+}
+
+.color-circle--radio:checked + .color-circle--label:after {
+  opacity: 1;
+}
+
+.color-circle--label {
+  position: relative;
+}
+
+.color-circle--label:before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.color-circle--label:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: block;
+  width: 20px;
+  height: 12px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  opacity: 0;
+}
+
+.color-circle--label.lightBlue:before {
+  background-color: var(--tLightBlue);
+}
+
+.color-circle--label.lightBlue:hover:before {
+  background-color: var(--tLightBlueOn);
+}
+
+.color-circle--label.yellow:before {
+  background-color: var(--tYellow);
+}
+
+.color-circle--label.yellow:hover:before {
+  background-color: var(--tYellowOn);
+}
+
+.color-circle--label.pink:before {
+  background-color: var(--tPink);
+}
+
+.color-circle--label.pinke:hover:before {
+  background-color: var(--tPinkOn);
+}
+
+.color-circle--label.purple:before {
+  background-color: var(--tPurple);
+}
+
+.color-circle--label.purple:hover:before {
+  background-color: var(--tPurpleOn);
+}
+
+.color-circle--label.orange:before {
+  background-color: var(--tOrange);
+}
+
+.color-circle--label.orange:hover:before {
+  background-color: var(--tOrangeOn);
+}
+
+.color-circle--label.lightGreen:before {
+  background-color: var(--tLightGreen);
+}
+
+.color-circle--label.lightGreen:hover:before {
+  background-color: var(--tLightGreenOn);
+}

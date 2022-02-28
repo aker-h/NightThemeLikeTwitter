@@ -1,0 +1,122 @@
+* {
+  -webkit-transition-property: backgraound, background-color, color;
+  transition-property: backgraound, background-color, color;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+body {
+  background: var(--wallpaper) !important;
+}
+
+body, input, button {
+  color: var(--textMain) !important;
+}
+
+a.MV3Tnb {
+  color: var(--textMainDis) !important;
+}
+
+a.gb_d, span.gb_d {
+  color: var(--textMainDis) !important;
+}
+
+.gb_na svg, .gb_Dc svg, .gb_0c .gb_2d, .gb_Pc .gb_2d {
+  color: var(--textGray) !important;
+}
+
+.gb_yc .gb_Qe.gb_Re button:hover svg, .gb_Qe button:hover svg, .gb_A:hover {
+  background-color: var(--itemHighlight) !important;
+}
+
+.gb_6d:not(.gb_0) {
+  background: var(--mainBtn) !important;
+}
+
+.gb_6d:not(.gb_0):hover {
+  background: var(--mainBtnOn) !important;
+}
+
+#gb a.gb_1.gb_1 {
+  color: var(--mainBtnTxt) !important;
+}
+
+.lnXdpd {
+  display: none !important;
+}
+
+.o3j99.LLD4me {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background: var(--favoColor) !important;
+  mask-image: url("/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png") !important;
+  mask-size: 272px 92px !important;
+  mask-repeat: no-repeat !important;
+  mask-position: bottom center !important;
+  -webkit-mask-image: url("/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png") !important;
+  -webkit-mask-size: 272px 92px !important;
+  -webkit-mask-repeat: no-repeat !important;
+  -webkit-mask-position: bottom center !important;
+}
+
+.RNNXgb {
+  background: var(--inputField) !important;
+  border: 1px solid var(--inputField) !important;
+}
+
+.RNNXgb:hover {
+  background: var(--inputField) !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-color: var(--inputField) !important;
+}
+
+.emcav .RNNXgb {
+  border-color: var(--favoColor) !important;
+  background: transparent !important;
+  -webkit-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+.QCzoEc {
+  color: var(--textGray) !important;
+}
+
+.ExCKkf {
+  color: var(--textGray) !important;
+}
+
+.aajZCb {
+  background: var(--wallpaper) !important;
+  -webkit-box-shadow: var(--shadow) !important;
+          box-shadow: var(--shadow) !important;
+  border: 1px solid var(--favoColor) !important;
+  border-top: 0px solid transparent !important;
+}
+
+.xtSCL {
+  border-top: 1px solid var(--borderline) !important;
+  background: var(--wallpaper) !important;
+}
+
+.wM6W7d {
+  color: var(--textMain) !important;
+}
+
+.sbhl {
+  background: var(--itemHighlight) !important;
+}
+
+.ynRric {
+  color: var(--textGray) !important;
+}
+
+.lJ9FBc input[type="submit"], .gbqfba {
+  background-color: var(--subBtn) !important;
+  border: var(--subBtn) !important;
+  color: var(--subBtnTxt) !important;
+}
+
+.lJ9FBc input[type="submit"]:hover, .gbqfba:hover {
+  background-color: var(--subBtnOn) !important;
+}

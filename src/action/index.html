@@ -4,14 +4,12 @@
         <meta charset="utf8">
         <link rel="stylesheet" href="" id="rootCss">
         <style id="favoColor"></style>
-        <link rel="stylesheet" href="style/common.css">
+        <link rel="stylesheet" href="./style/common.css">
         <script src="../../js/jquery-3.6.0.min.js"></script>
-        <!-- <script src="/jquery-3.6.0.min.js"></script> -->
         <script src="../js/enums.js"></script>
         <script src="../js/lib.js"></script>
-        <script src="script/actionLib.js"></script>
-        <!-- <script src="script/loadCDN.js"></script> -->
-        <script src="script/actionOnload.js"></script>
+        <script src="./script/actionLib.js"></script>
+        <script src="./script/actionOnload.js"></script>
     </html>
     <body>
         <header>
@@ -34,11 +32,36 @@
                             <div class="color-box--inner darkBlue" id="colorBoxInnerDarkBlue"></div>
                         </label>                        
                     </div>
-                </div>
-                <div class="content" id="selectColor">
-                    
-                </div>
+                </div>                
             </label>
+            <label><h2>Color</h2>
+                <div class="content" id="selectColor">
+                    <span class="color-circle left">
+                        <input class="color-circle--radio lightBlue" id="colorCircleLightBlue" type="radio" name="colorCircles">
+                        <label class="color-circle--label lightBlue" id="colorCircleLabelLightBlue" for="colorCircleLightBlue"></label>
+                    </span>
+                    <span class="color-circle left">
+                        <input class="color-circle--radio yellow" id="colorCircleYellow" type="radio" name="colorCircles">
+                        <label class="color-circle--label yellow" id="colorCircleLabelYellow" for="colorCircleYellow"></label>
+                    </span>
+                    <span class="color-circle left">
+                        <input class="color-circle--radio pink" id="colorCirclePink" type="radio" name="colorCircles">
+                        <label class="color-circle--label pink" id="colorCircleLabelPink" for="colorCirclePink"></label>
+                    </span>
+                    <span class="color-circle left">
+                        <input class="color-circle--radio purple" id="colorCirclePurple" type="radio" name="colorCircles">
+                        <label class="color-circle--label purple" id="colorCircleLabelPurple" for="colorCirclePurple"></label>
+                    </span>
+                    <span class="color-circle left">
+                        <input class="color-circle--radio orange" id="colorCircleOrange" type="radio" name="colorCircles">
+                        <label class="color-circle--label orange" id="colorCircleLabelOrange" for="colorCircleOrange"></label>
+                    </span>
+                    <span class="color-circle left">
+                        <input class="color-circle--radio lightGreen" id="colorCircleLightGreen" type="radio" name="colorCircles">
+                        <label class="color-circle--label lightGreen" id="colorCircleLabelLightGreen" for="colorCircleLightGreen"></label>
+                    </span>
+                </div>
+            </label>            
         </div>
         <footer></footer>
     </body>

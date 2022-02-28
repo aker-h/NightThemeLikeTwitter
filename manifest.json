@@ -24,14 +24,13 @@
             "js/jquery-3.6.0.min.js",
             "src/js/enums.js",
             "src/js/lib.js",
-            "src/content_scripts/google/lib.js",
-            "src/content_scripts/google/onload.js"
+            "src/content_scripts/csLib.js",
+            "src/content_scripts/google/googleLib.js",
+            "src/content_scripts/google/googleOnload.js",
+            "src/content_scripts/csOnchange.js"
         ],
         "css": [
-            "content_scripts/root.css",
-            "content_scripts/google/common.css",
-            "content_scripts/google/search.css",
-            "content_scripts/google/preferences.css"
+            "src/content_scripts/google/home.css"
         ],
         "all_frames": true,
         "run_at": "document_start"
