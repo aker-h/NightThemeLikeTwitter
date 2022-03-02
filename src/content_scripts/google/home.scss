@@ -1,14 +1,22 @@
-* {
-    transition-property: backgraound, background-color, color;
-    transition-duration: .5s;
-}
-
 body {
     background: var(--wallpaper) !important;
 }
 
 body, input, button {
     color: var(--textMain) !important;
+}
+
+a {
+    color: var(--tLightBlue) !important;
+
+    &:visited {
+        color: var(--tPurple) !important;
+    }
+}
+
+//画像svg
+.iv236 {
+    color: var(--textGray) !important;
 }
 
 //google.com/
@@ -22,6 +30,10 @@ a.gb_d, span.gb_d {
     color: var(--textMainDis) !important;
 }
 
+//ダークモードのときの長方形
+#gb {
+    background-color: transparent !important;
+}
 
 //Googleアプリボタン
 .gb_na svg, .gb_Dc svg, .gb_0c .gb_2d, .gb_Pc .gb_2d {
@@ -79,7 +91,10 @@ a.gb_d, span.gb_d {
 
 .emcav .RNNXgb {
     border-color: var(--favoColor) !important;
-    background: transparent !important;
+    background: var(--wallpaper) !important;
+    border-bottom-left-radius: 24px !important;
+    border-bottom-right-radius: 24px !important;
+    z-index: 2 !important;
     transition-duration: 0s;
 }
 
@@ -96,14 +111,20 @@ a.gb_d, span.gb_d {
 //検索候補
 .aajZCb {
     background: var(--wallpaper) !important;
-    box-shadow: var(--shadow) !important;
-    border: 1px solid var(--favoColor) !important;
+    border: 1px solid var(--borderline) !important;
     border-top: 0px solid transparent !important;
+    border-radius: 24px !important;
+    box-shadow: var(--shadow) !important;
+}
+
+.UUbT9 {
+    z-index: 0 !important;
 }
 
 .xtSCL {
     border-top: 1px solid var(--borderline) !important;
     background: var(--wallpaper) !important;
+    border-top-color: var(--favoColor) !important;
 }
 
 .wM6W7d {
@@ -128,4 +149,261 @@ a.gb_d, span.gb_d {
     &:hover {
         background-color: var(--subBtnOn) !important;
     }
+}
+
+//フッター
+.c93Gbe {
+    background: transparent !important;
+}
+
+//上段 
+.uU7dJb {
+    border-top: 1px solid var(--borderline) !important;
+    border-bottom: 1px solid var(--borderline) !important;
+    color: var(--textGray) !important;
+}
+
+//下段　広告　ビジネス　検索の仕組み　プライバシー　規約　設定
+a.pHiOh {
+    color: var(--textGray) !important;
+}
+
+a.EzVRq, button.EzVRq {
+    color: var(--textGray) !important;
+}
+
+//https://www.google.com/search/
+//ヘッダー
+//上段
+.sfbg {
+    background: var(--wallpaper) !important;
+}
+
+.minidiv .sfbg {
+    background: var(--wallpaperBlur) !important;
+    backdrop-filter: blur(12px) !important;
+}
+
+
+//ロゴ消し
+#logo img {
+    opacity: 0 !important;
+}
+
+//ロゴ追加
+.logo {
+    background: var(--favoColor) !important;
+    mask-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png) !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 92px 30px !important;
+    mask-position: center bottom !important;
+    -webkit-mask-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png) !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: 92px 30px !important;
+    -webkit-mask-position: center bottom !important;
+}
+
+//設定ボタン
+.z1asCe svg {
+    color: var(--textGray) !important;
+}
+
+//中段
+.yg51vc {
+    background: var(--wallpaper) !important;
+}
+
+
+//すべて　画像　動画　地図　ニュース
+.hdtb-mitem {
+    &.hdtb-msel {
+        color: var(--textMain) !important;
+        font-weight: bold !important;
+
+        &:hover {
+            background: var(--itemHighlight) !important;
+            transition-duration: 0s !important;
+        }
+
+        & .YTDezd {
+            background: var(--favoColor) !important;
+        }
+    }
+
+    & a {
+        color: var(--textGray) !important;
+
+        &:hover {
+            background: var(--itemHighlight) !important;
+        }
+    }
+
+    //もっと見る
+    & g-popup .rIbAWc .GOE98c {
+        color: var(--textGray) !important;
+    }
+}
+
+//もっと見る
+.rIbAWc {
+    &:hover {
+        background: var(--itemHighlight) !important;
+    }    
+}
+
+//ツール
+.t2vtad {
+    border: 1px solid var(--borderline) !important;
+    color: var(--textGray) !important;
+
+    &:not(.hdtb-tl-sel):hover {
+        background-color: var(--itemHighlight) !important;
+        background-image: none !important;
+    }
+}
+
+.GLcBOb {
+    border-bottom: 1px solid var(--borderline) !important;
+}
+
+//下段
+.appbar {
+    background: var(--wallpaper) !important;
+}
+
+
+//検索結果数
+.LHJvCe {
+    color: var(--textMainDis) !important;
+}
+
+//強調スニペット
+.dG2XIf {
+    background: var(--card) !important;
+}
+
+.akqY6 {
+    background: var(--borderline) !important;
+}
+
+//強調スニペットについて　フィードバック
+.KFFQ0c .YfftMc, .KFFQ0c .YfftMc span, .KFFQ0c .YfftMc div, .KFFQ0c .YfftMc a {
+    color: var(--textGray) !important;
+}
+
+//検索結果のセル
+cite, cite a:link, cite a:visited {
+    color: var(--textMain) !important;
+}
+
+.dyjrff {
+    color: var(--textMainDis) !important;
+}
+
+.GHDvEf, .GHDvEf:hover, .GHDvEf.selected, .GHDvEf.selected:hover {
+    background-color: transparent !important;
+}
+
+.action-menu .gTl8xb {
+    border-color: var(--textGray) transparent !important;
+}
+
+.yDYNvb.lyLwlc {
+    color: var(--textMainDis) !important;
+}
+
+.WZ8Tjf {
+    color: var(--textMainDis) !important;
+}
+
+.yXK7lf em {
+    color: var(--textMain) !important;
+}
+
+//他の人はこちらも検索
+.AUiS2 {
+    border: 1px solid var(--card) !important;
+    background: var(--card) !important;
+}
+
+.eJ7tvc {
+    color: var(--textGray) !important;
+}
+
+.XCKyNd {
+    background: var(--textGray) !important;
+    mask-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2048%2048%22%20fill%3D%22%23000000%22%3E%0D%0A%20%20%20%20%3Cpath%20d%3D%22M38%2012.83L35.17%2010%2024%2021.17%2012.83%2010%2010%2012.83%2021.17%2024%2010%2035.17%2012.83%2038%2024%2026.83%2035.17%2038%2038%2035.17%2026.83%2024z%22%2F%3E%0D%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h48v48H0z%22%20fill%3D%22none%22%2F%3E%0D%0A%3C%2Fsvg%3E%0D%0A);
+    mask-repeat: no-repeat !important;
+    mask-position: center !important;
+    -webkit-mask-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2048%2048%22%20fill%3D%22%23000000%22%3E%0D%0A%20%20%20%20%3Cpath%20d%3D%22M38%2012.83L35.17%2010%2024%2021.17%2012.83%2010%2010%2012.83%2021.17%2024%2010%2035.17%2012.83%2038%2024%2026.83%2035.17%2038%2038%2035.17%2026.83%2024z%22%2F%3E%0D%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h48v48H0z%22%20fill%3D%22none%22%2F%3E%0D%0A%3C%2Fsvg%3E%0D%0A);
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position: center !important;
+}
+
+.ZkkK1e {
+    background: transparent !important;
+    border: 1px solid var(--borderline) !important;
+    color: var(--textMain) !important;
+
+    &:hover {
+        background: var(--itemHighlight) !important;
+    }
+}
+
+.KPV9xf, .HErFVb {
+    background: transparent !important;
+    border: 1px solid var(--borderline) !important;
+
+    &:hover {
+        background: var(--itemHighlight) !important;
+    }
+}
+
+.fWhgmd {
+    background-color: transparent !important;
+}
+
+//すべてを見る
+.pb5vrc {
+    background-color: var(--borderline) !important;
+}
+
+.MXl0lf {
+    background: var(--wallpaper) !important;
+    border: 1px solid var(--borderline) !important;
+
+    &:hover {
+        background: var(--cardHighlight) !important;
+    }
+}
+
+.wUrVib {
+    color: var(--tLightBlue) !important;
+}
+
+//下の方のボタン
+.k8XOCe {
+    background-color: var(--subBtn) !important;
+
+    &:hover {
+        background: var(--subBtnOn) !important;
+    }
+}
+
+.aXBZVd {
+    background: var(--textGray) !important;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='rgba(0,0,0,.54)' d='M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat !important;
+    mask-position: center;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='rgba(0,0,0,.54)' d='M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position: center;
+}
+
+b {
+    color: var(--subBtnTxt) !important;
+}
+
+.k8XOCe.R0xfCb.VCOFK.s8bAkb {
+    color: var(--subBtnTxt) !important;
 }

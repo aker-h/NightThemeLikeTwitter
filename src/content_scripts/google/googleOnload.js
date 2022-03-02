@@ -6,10 +6,10 @@
     if (onTopPageOfImageSearch(location.href)) {
         addLogoOfImageSearch();
     }
-    changeGoooooooooogle();
     return VOID_PROMISE;
 })();
 //DOM構成後
 $(() => {
+    changeGoooooooooogle();
     return;
 });

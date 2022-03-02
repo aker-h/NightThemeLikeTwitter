@@ -5,6 +5,12 @@ async function wait4iFrameGA () {
         try {
             let gb = document.getElementById('gb');
 
+            if (gb == null) {
+                reject();
+            }
+
+            let i = 0;
+
             let interval = setInterval(() => {
                 let iframe = gb.getElementsByTagName('iframe')[0];
 
@@ -13,7 +19,15 @@ async function wait4iFrameGA () {
                     console.log('Target iframe has been appeared.');
                     console.log(iframe);
                     
-                    resolve(observeIFrameGA(iframe));
+                    let src = 'https://ogs.google.com/u/0/widget/app?origin=https%3A%2F%2Fwww.google.com&cn=app&pid=1&spid=1&hl=ja&dm=';
+
+                    iframe.src = src;
+                }
+
+                i++;
+
+                if (i > 100) {
+                    clearInterval(interval);
                 }
             }, 100);
         } catch (e) {reject();}
@@ -30,11 +44,14 @@ async function observeIFrameGA (iframe) {
     let interval = setInterval(() => {
         if(i >= 10) {
             clearInterval(interval);
+            applyCSStoIFrame(iframeDocument);
         }
 
         console.log(iframeDocument.head);
         i++;
-    }, 3000);    
+    }, 1000);
+    
+    
 
     return new Promise((resolve) => {resolve()});
 };
