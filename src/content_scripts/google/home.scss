@@ -1,3 +1,21 @@
+::-webkit-scrollbar {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--textMain) !important;
+    border-radius: 8px;
+
+    &:hover {
+        background: var(--textMainDis) !important;
+    }
+}
+
 body {
     background: var(--wallpaper) !important;
 }
@@ -12,6 +30,9 @@ a {
     &:visited {
         color: var(--tPurple) !important;
     }
+}
+hr {
+    border-color: var(--borderline) !important;
 }
 
 //画像svg
@@ -186,18 +207,22 @@ a.EzVRq, button.EzVRq {
 
 
 //ロゴ消し
-#logo img {
+#logo img, .logo a img {
     opacity: 0 !important;
+}
+
+.SuUcIb {
+    display: none !important;
 }
 
 //ロゴ追加
 .logo {
     background: var(--favoColor) !important;
-    mask-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png) !important;
+    mask-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png") !important;
     mask-repeat: no-repeat !important;
     mask-size: 92px 30px !important;
     mask-position: center bottom !important;
-    -webkit-mask-image: url(https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png) !important;
+    -webkit-mask-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png") !important;
     -webkit-mask-repeat: no-repeat !important;
     -webkit-mask-size: 92px 30px !important;
     -webkit-mask-position: center bottom !important;
@@ -320,13 +345,36 @@ cite, cite a:link, cite a:visited {
     color: var(--textMain) !important;
 }
 
+.usJj9c .zz3gNc {
+    color: var(--textMainDis) !important;
+}
+
+.ZE0LJd {
+    color: var(--textGray) !important;
+}
+
+.FzCfme {
+    color: var(--textMainDis) !important;
+}
+
+.hMJ0yc {
+    color: var(--textGray) !important;
+}
+
+//pdfのタグ
+.NaCKVc {
+    border: 1px solid var(--textGrayMarked) !important;
+    background: var(--textGrayMarked) !important;
+    color: var(--textGray) !important;
+}
+
 //他の人はこちらも検索
 .AUiS2 {
     border: 1px solid var(--card) !important;
     background: var(--card) !important;
 }
 
-.eJ7tvc {
+.eJ7tvc, .O3JH7 {
     color: var(--textGray) !important;
 }
 
@@ -363,6 +411,24 @@ cite, cite a:link, cite a:visited {
     background-color: transparent !important;
 }
 
+.oySJpc {
+    border-top-color: var(--borderline) !important;
+}
+
+.YsGUOb {
+    background: var(--textGray) !important;
+    mask-image: url('data:image/svg+xml,\00003csvg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">\00003cpath fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z">\00003c/path>\00003c/svg>');
+    -webkit-mask-image: url('data:image/svg+xml,\00003csvg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">\00003cpath fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z">\00003c/path>\00003c/svg>');
+}
+
+.YrbPuc, .qHx7jd {
+    color: var(--textGray) !important;
+}
+
+.z8gr9e {
+    color: var(--textMainDis) !important;
+}
+
 //すべてを見る
 .pb5vrc {
     background-color: var(--borderline) !important;
@@ -381,12 +447,51 @@ cite, cite a:link, cite a:visited {
     color: var(--tLightBlue) !important;
 }
 
+//トップニュース
+.GmE3X {
+    color: var(--textMain) !important;
+}
+
+.WlydOe {
+    & .ynAwRc {
+        color: var(--tLightBlue) !important;
+    
+        &:visited {
+            color: var(--tPurple) !important;
+        }
+    }
+
+    & .NUnG9d {
+        color: var(--textMain) !important;
+    }
+
+    & .NUnG9d {
+        color: var(--textGray) !important;
+    }
+}
+
+.aNytqb .rKnmn, .RzdJxc {
+    border-top-color: var(--borderline) !important;
+}
+
+.ynAwRc {
+    color: var(--tLightBlue) !important;
+
+    &:visited {
+        color: var(--tPurple) !important;
+    }
+}
+
 //下の方のボタン
 .k8XOCe {
     background-color: var(--subBtn) !important;
 
     &:hover {
         background: var(--subBtnOn) !important;
+    }
+
+    & .s75CSd.OhScic.AB4Wff {
+        color: var(--subBtnTxt) !important;
     }
 }
 
@@ -400,10 +505,352 @@ cite, cite a:link, cite a:visited {
     -webkit-mask-position: center;
 }
 
-b {
+.k8XOCe.R0xfCb.VCOFK.s8bAkb {
     color: var(--subBtnTxt) !important;
 }
 
-.k8XOCe.R0xfCb.VCOFK.s8bAkb {
-    color: var(--subBtnTxt) !important;
+.GmE3X {
+    color: var(--textGray);
+
+    title-with-lhs-icon:hover .ekf0x & {
+        color: var(--favoColor) !important;
+    }
+}
+
+.YyVfkd {
+    color: var(--textMain) !important;
+}
+
+//右ペイン
+.TQc1id .I6TXqe {
+    border: 1px solid var(--card) !important;
+    background: var(--card) !important;
+
+    & .kno-ecr-pt, & .LrzXr, & .garHBe, & .Ss2Faf, & .b4vunb a, & .xEzgBc {
+        color: var(--textMain) !important;
+    }
+
+    & .wwUB2c, & .w8qArf .fl, & .r3IKmc, & .z8gr9e, & .IRH78d, & .vk_gy, & .xlBGCb {
+        color: var(--textGray) !important;
+    }
+
+    & .HsZQAe {
+        border-color: var(--borderline) !important;
+    }
+
+    & .hb8SAc {
+        color: var(--textMainDis) !important;
+    }
+
+    & .SW5pqf, & .TYiug  {
+        color: var(--tLightBlue) !important;
+    }
+
+    & .d7sCQ {
+        border-bottom-color: var(--borderline) !important;
+    }
+
+    & .ab_button {
+        background-color: var(--subBtn) !important;
+        background-image: none !important;
+        border-color: var(--subBtn) !important;
+        color: var(--subBtnTxt) !important;
+
+        &:hover {
+            background-color: var(--subBtnOn) !important;
+        }
+    }
+}
+
+//ナレッジパネルの認証を受ける
+.H73aad {
+    background: transparent !important;
+    border-color: var(--borderline) !important;
+
+    & .jleFbf {
+        color: var(--textGray) !important;
+    }
+
+    &:hover {
+        background: var(--itemHighlight) !important;
+    }
+}
+
+
+//フィードバック
+.kno-ftr.rpBMYb {
+    color: var(--textGray) !important;
+}
+
+.aUSklf {
+    border-top-color: var(--borderline) !important;
+}
+
+.ez8jFf {
+    border-left-color: var(--borderline) !important;
+}
+
+.uo4vr {
+    color: var(--textGray) !important;
+}
+
+//ツイッターとかのカード
+.zf84ud.THG0oc.cv2VAd {
+    border-color: var(--card) !important;
+    background: var(--card) !important;
+
+    & .aMAfLd .Brgz0.tw-res .rmxqbe.ol1Lrb .kLhEKe {
+        background-color: transparent !important;
+
+        & .Ywxp6b {
+            color: var(--textGray) !important;
+        }
+
+        & .f {
+            color: var(--textGray) !important;
+        }
+    }
+}
+
+//フッダー
+#fbar {
+    background: var(--wallpaper) !important;
+
+    //上段
+    & .b2hzT {
+        border-top: 1px solid var(--borderline) !important;
+        border-bottom: 1px solid var(--borderline) !important;
+
+        //大体の住所
+        & #Wprf1b {
+            color: var(--textMainDis) !important;
+        }
+
+        //現在のアクティビティに基づく 現在地を更新
+        & .KwU3F,& .xSQxL {
+            color: var(--tLightBlue) !important;
+        }
+
+        //国
+        & .b0KoTc {
+            color: var(--textGray) !important;
+
+            & #swml {
+                border-left: 1px solid var(--borderline) !important;
+            }
+
+            & .smiUbb {
+                color: var(--textMainDis) !important;
+            }
+
+            & #tsuid17 {
+                & .rwA8ec.HDOrGf.GNm3Qb a{
+                    color: var(--textGray) !important;
+    
+                    & .GNm3Qb {
+                        //●
+                        & .unknown_loc {
+                            background: var(--textGray) !important;
+                        } 
+                    } 
+                }                
+            }
+        }
+    }
+
+    //下段
+    & .fbar .B4GxFc #fsl a {
+        color: var(--textGray) !important;
+    }
+}
+
+//このデータについて　フィードバック
+a.Ui8XNb, .uquUgf a {
+    color: var(--textGray) !important;
+}
+
+//検索結果　ニュース
+.ftSUBd {
+    border-color: var(--card) !important;
+    background: var(--card) !important;
+
+    & div div .WlydOe .vJOb1e.QH4RGe.aIfcHf .iRPxbe {
+        & .CEMjEf.NUnG9d {
+            color: var(--textMain) !important;
+        }
+
+        & .y355M {
+            color: var(--textMain) !important;
+
+            &:hover {
+                color: var(--favoColor) !important;
+            }
+        }
+
+        & .GI74Re {
+            color: var(--textMainDis) !important;
+        }
+    }
+}
+
+.f6F9Be {
+    border-top-color: var(--borderline) !important;
+}
+
+//検索結果　動画
+.Uroaid {
+    color: var(--textMainDis) !important;
+}
+
+.Zg1NU, .P7xzyf {
+    color: var(--textGray) !important;
+}
+
+//アラートを作成ボタン
+.N6pxec {
+    & .QKLM0d {
+        color: var(--mainBtnTxt) !important;
+    }
+
+    & .cbjjnc {
+        background: var(--favoColor) !important;
+
+        &:hover {
+            background: var(--favoColorOn) !important;
+        }
+    }
+
+    & .Gfzyee {
+        border-color: var(--favoColor) !important;
+    }
+}
+
+//検索結果　画像
+//カメラマーク
+.F7UV7d {
+    background: var(--textGray) !important;
+    mask-image: url('https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png') !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 24px !important;
+    -webkit-mask-image: url('https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png') !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: 24px !important;
+}
+
+//ヘッダー
+//上段
+.s8GCU {
+    background: var(--wallpaper) !important;
+}
+
+.Lj9fsd {
+    background: var(--wallpaper) !important;
+
+    & .FtRlBe {
+        & .dAEiw.dXdtIf div .wQnou .jOYx5b {
+            //ロゴ
+            & .nmU53 .Wdq1db .qlS7ne .ZbYMvd {
+                background: var(--favoColor) !important;
+                mask-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png") !important;
+                mask-repeat: no-repeat !important;
+                mask-size: 92px 30px !important;
+                mask-position: center bottom !important;
+                -webkit-mask-image: url("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png") !important;
+                -webkit-mask-repeat: no-repeat !important;
+                -webkit-mask-size: 92px 30px !important;
+                -webkit-mask-position: center bottom !important;
+    
+                & a img {
+                    opacity: 0 !important;
+                }
+            }
+    
+            //検索欄
+            & .o6juZc {
+                border-color: var(--inputField) !important;
+                background: var(--inputField) !important;           
+            }
+    
+            &.M3w8Nb .o6juZc{
+                border-bottom-left-radius: 24px !important;
+                border-bottom-right-radius: 24px !important;
+                border-color: var(--favoColor) !important;
+                background: var(--wallpaper) !important;
+            }
+    
+            //検索候補
+            & .Bhmw4 .W6pGoe {
+                background: var(--wallpaper) !important;
+                border-radius: 24px !important;
+                border-top-color: var(--favoColor) !important;
+                box-shadow: var(--shadow) !important;
+                padding-bottom: 24px !important;
+    
+                & .WdWr7c {
+                    border-top-color: var(--favoColor) !important;
+                    margin: 0 19px !important;
+                }
+    
+                & .V9Qhd.qXwNf .cylkX .x0KADb .CuUtHc {
+                    & .ewEc5c .QBbk2d .sU3bKf {
+                        color: var(--textMain) !important;
+                    }
+    
+                    &.zP7KFe {
+                        background: var(--itemHighlight) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    & .Si7Nvc.UBOWLe .LEv8df .KQsPse .gbZSUe{
+        color: var(--textGray) !important;
+    }
+}
+
+//下段
+.jZWadf {
+    background: var(--wallpaper) !important;
+
+    //左
+    & .tAcEof {
+        //すべて　ニュース　動画　画像　ショッピング　もっと見る
+        & .O850f .iSZmU .T47uwc .NZmxZe {
+            color: var(--textGray) !important;
+
+            &:hover {
+                background: var(--itemHighlight) !important;
+            }
+
+            &.rQEFy {
+                color: var(--textMain) !important;
+                font-weight: bold !important; 
+                border-bottom-color: var(--favoColor) !important;
+            }
+        }
+
+        //ツール
+        & .PAYrJc .ssfWCe {
+            & .PNyWAd {
+                color: var(--textGray) !important;
+
+                &:hover {
+                    background: var(--itemHighlight) !important;
+                }
+            }
+
+            & .ZXJQ7c {
+                border-color: var(--borderline) !important;
+            }
+        }
+    }
+
+    //右
+    & .cj2HCb .O0MX5d.jklcHd .gYZlAf.EQ9CR {
+        //セーフサーチ
+        & .SPmIAf {
+            color: var(--textGray) !important;
+        }
+    }
 }
