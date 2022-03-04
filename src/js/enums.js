@@ -3,7 +3,7 @@ const EXTENSION_NAME = 'NightThemeLikeTwitter';
 const LOGTYPE = {
     EVENT: 'EVENT'
 };
-const LIGHT_THEME = 'https://aker-h.github.io/myLib/css/rootTwitterLight.css', DARK_BLUE_THEME = 'https://aker-h.github.io/myLib/css/rootTwitterDarkBlue.css';
+const LIGHT_THEME = 'https://aker-h.github.io/myLib/css/rootTwitterLight.css', DARK_BLUE_THEME = 'https://aker-h.github.io/myLib/css/rootTwitterDarkBlue.css', BLACK_THEME = 'https://aker-h.github.io/myLib/css/rootTwitterBlack.css';
 const VOID_PROMISE = new Promise((resolve) => { resolve(); });
 const SRC_ACTION_LIB = 'action/script/actionLib.js';
 const SRC_ACTION_ONLOAD = 'action/script/actionOnload.js';

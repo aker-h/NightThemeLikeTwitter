@@ -31,6 +31,8 @@ async function initializeThemeByStorageOnAction (): Promise<void> {
 
             if (theme === 'darkBlue') {
                 href = DARK_BLUE_THEME;
+            } else if (theme === 'black') {
+                href = BLACK_THEME;
             }
 
             document.getElementById('rootCss')?.setAttribute('href', href);
@@ -122,6 +124,11 @@ function addClickListenerForThemes (): void {
         saveThemeToStorage('darkBlue');
         rootCss.setAttribute('href', DARK_BLUE_THEME);
     });
+
+    $('#colorBoxInnerBlack').on('click', () => {
+        saveThemeToStorage('black');
+        rootCss.setAttribute('href', BLACK_THEME);
+    });
 }
 
 function initializeSelectedColor (): void {
@@ -153,5 +160,7 @@ function initializeSelectedTheme (): void {
         $('#colorBoxLabelLight').prop('checked', true);
     } else if (href === DARK_BLUE_THEME) {
         $('#colorBoxLabelDarkBlue').prop('checked', true);
+    } else if (href === BLACK_THEME) {
+        $('#colorBoxLabelBlack').prop('checked', true);
     }
 }

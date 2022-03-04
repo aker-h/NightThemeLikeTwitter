@@ -302,6 +302,26 @@ a.EzVRq, button.EzVRq {
     color: var(--textMainDis) !important;
 }
 
+//○○の検索結果を表示しています。
+g-card {
+    border: 1px solid var(--tOrange) !important;
+    background: var(--card) !important;
+
+    & .Vn5wtb div {
+        & .WxYNlf, & .KtvGCc {
+            color: var(--textMain) !important;            
+        }
+    }
+}
+
+.TADXpd {
+    color: var(--tLightBlue) !important;
+}
+
+.G0nQ7b {
+    color: var(--tRed) !important;
+}
+
 //強調スニペット
 .dG2XIf {
     background: var(--card) !important;
@@ -359,6 +379,16 @@ cite, cite a:link, cite a:visited {
 
 .hMJ0yc {
     color: var(--textGray) !important;
+}
+
+// 広告のタグ
+.U3A9Ac {
+    background-color: transparent !important;
+    color: var(--textGray) !important;
+}
+
+.qzEoUe {
+    color: var(--textMain) !important;
 }
 
 //pdfのタグ
@@ -438,8 +468,20 @@ cite, cite a:link, cite a:visited {
     background: var(--wallpaper) !important;
     border: 1px solid var(--borderline) !important;
 
-    &:hover {
-        background: var(--cardHighlight) !important;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 36px;
+        border-radius: 18px;
+        background: var(--itemHighlight) !important;        
+        opacity: 0;
+    }
+
+    &:hover::after {
+        opacity: 1;
     }
 }
 
@@ -480,6 +522,56 @@ cite, cite a:link, cite a:visited {
     &:visited {
         color: var(--tPurple) !important;
     }
+}
+
+//翻訳結果とかの埋め込み
+.j1iyq {
+    border-color: var(--borderline) !important;
+
+    & .source-language,  & .target-language{
+        color: var(--textGray) !important;
+    }
+}
+
+.m1hag {
+    background: var(--card) !important;
+    border-radius: 8px !important;
+
+    & .tw-ta-container {
+        & textarea {
+            color: var(--textMain) !important;        
+        }
+
+        & .tw-text-small {
+            color: var(--textGray) !important;
+        }
+    }
+}
+
+//「○○」の翻訳
+.QXzCSe {
+    color: var(--textGray) !important;
+}
+
+.tw-bilingual-pos {
+    color: var(--textGray) !important;
+}
+
+.SvKTZc {
+    color: var(--textMain) !important;
+}
+
+.MaH2Hf {
+    color: var(--textMainDis) !important;
+}
+
+.bHOicb {
+    color: var(--textGray) !important;
+    border-color: var(--borderline) !important;
+}
+
+.tw-bilingual-marked {
+    border-left-color: var(--favoColor) !important;
 }
 
 //下の方のボタン
@@ -807,6 +899,16 @@ a.Ui8XNb, .uquUgf a {
     & .Si7Nvc.UBOWLe .LEv8df .KQsPse .gbZSUe{
         color: var(--textGray) !important;
     }
+    
+    &.DU1Mzb {
+        background: var(--wallpaperBlur) !important;
+        backdrop-filter: blur(12px) !important;
+    }
+}
+
+//ロゴの色を変える
+.fSnalc, .ZqPjbb, .oOg6Ne, .aPiskd {
+    stroke: var(--favoColor) !important;
 }
 
 //下段
@@ -852,5 +954,136 @@ a.Ui8XNb, .uquUgf a {
         & .SPmIAf {
             color: var(--textGray) !important;
         }
+    }
+}
+
+.cEPPT {
+    border-bottom-color: var(--borderline) !important;
+}
+
+.F9PbJd {
+    border-color: var(--borderline) !important;
+    color: var(--textMain) !important;
+
+    &:hover {
+        background: var(--itemHighlight) !important;
+    }
+}
+
+.MSM1fd:hover .wXeWr {
+    box-shadow: var(--shadow) !important;
+}
+
+.WGvvNb {
+    color: var(--textMain) !important;
+}
+
+.fxgdke {
+    color: var(--textGray) !important;
+}
+
+//関連キーワード 
+.J3Tg1d {
+    border-color: var(--borderline) !important;
+
+    & .tmS4cc {
+        & .O8VmIc.a3Wc3 .gadasb {
+            color: var(--textGray) !important;
+        }
+
+        & .tW8luc div .UwAaac {
+            border-top-color: var(--borderline) !important;
+            color: var(--textMainDis) !important;
+            
+            &.UwAaac:hover {
+                background: var(--itemHighlight) !important;
+            }
+
+            & .W8wzH.rwGmGe{
+                color: var(--textMainDis) !important;
+                & .tRnLkd {
+                    color: var(--textMainDis) !important;
+                }
+    
+                & .OY7BIe {
+                    color: var(--textMain) !important;
+                }
+            }
+        }
+    }
+}
+
+//在庫あり
+.pnrEfb {
+    color: var(--tLightGreen) !important;
+}
+
+//結果をもっと表示。
+.mye4qd {
+    border-color: var(--subBtn) !important;
+    background: var(--subBtn) !important;
+    color: var(--subBtnTxt) !important;
+
+    &:hover {
+        background: var(--subBtnOn) !important;
+    }
+}
+
+//未読はありません
+.K25wae {
+    color: var(--textGray) !important;
+}
+
+//フッター
+.Pvpvv {
+    background: var(--wallpaper) !important;
+    border-top-color: var(--borderline) !important;
+    color: var(--textGray) !important;
+
+    & .yQ0wwc {
+        //上段
+        // & .p1wuWb {}
+
+        //下段
+        & .AsZIyf .WuA9jb {
+            color: var(--textGray) !important;
+        }
+    }
+}
+
+.YcWSDf {
+    background-color: var(--itemHighlight) !important;
+    border-color: var(--favoColor) !important;
+}
+
+//画像クリック時の右ペイン
+.WaWKOe {
+    background-color: var(--wallpaperDark) !important;
+    box-shadow: inset var(--shadowColor) 0px 0px 15px !important;
+}
+
+.kEwVtd .ag0Tdd {
+    background-color: var(--mainBtn) !important;
+    color: var(--mainBtnTxt);
+
+    &:hover {
+        background-color: var(--mainBtnOn) !important;
+    }
+}
+
+//もっと見る
+.cF4V5c {
+    background-color: var(--card) !important;
+    box-shadow: var(--shadow) !important;
+}
+
+.ErsxPb {
+    border: 1px solid transparent;
+    border-left-width: 0;
+    border-right-width: 0;    
+
+    &.gvybPb, &.ErsxPb:active {
+        background-color: var(--cardHighlight) !important;
+        border-color: var(--borderline) !important;
     }
 }

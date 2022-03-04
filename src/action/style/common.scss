@@ -38,8 +38,10 @@ label h2 {
     }
 
     .color-box {
-        width: 147px;
+        margin-left: 8px;
+        width: 30%;
         height: 100%;
+        box-sizing: border-box;
     }
 
     .color-box--label--checkbox {
@@ -60,7 +62,7 @@ label h2 {
         margin: 0 4px;
         border: 2px solid var(--borderline);
         border-radius: 10px;
-        width: 139px;
+        width: 100%;
         height: 100px;
         transition: all .5s;
 
@@ -75,6 +77,10 @@ label h2 {
 
         &.darkBlue {
             background-color: #15202b;
+        }
+
+        &.black {
+            background-color: #000;
         }
     }
 }

@@ -5,7 +5,8 @@ const LOGTYPE = {
 };
 
 const LIGHT_THEME: string = 'https://aker-h.github.io/myLib/css/rootTwitterLight.css',
-      DARK_BLUE_THEME: string = 'https://aker-h.github.io/myLib/css/rootTwitterDarkBlue.css';
+      DARK_BLUE_THEME: string = 'https://aker-h.github.io/myLib/css/rootTwitterDarkBlue.css',
+      BLACK_THEME: string = 'https://aker-h.github.io/myLib/css/rootTwitterBlack.css';
 
 const VOID_PROMISE: Promise<void> = new Promise((resolve) => {resolve()});
 

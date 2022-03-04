@@ -26,6 +26,9 @@ async function initializeThemeByStorageOnAction() {
             if (theme === 'darkBlue') {
                 href = DARK_BLUE_THEME;
             }
+            else if (theme === 'black') {
+                href = BLACK_THEME;
+            }
             document.getElementById('rootCss')?.setAttribute('href', href);
             logEvent(`Initialized Theme is '${theme}.'`, SRC_ACTION_LIB, getIndex());
             resolve();
@@ -99,6 +102,10 @@ function addClickListenerForThemes() {
         saveThemeToStorage('darkBlue');
         rootCss.setAttribute('href', DARK_BLUE_THEME);
     });
+    $('#colorBoxInnerBlack').on('click', () => {
+        saveThemeToStorage('black');
+        rootCss.setAttribute('href', BLACK_THEME);
+    });
 }
 function initializeSelectedColor() {
     function select(color) {
@@ -132,5 +139,8 @@ function initializeSelectedTheme() {
     }
     else if (href === DARK_BLUE_THEME) {
         $('#colorBoxLabelDarkBlue').prop('checked', true);
+    }
+    else if (href === BLACK_THEME) {
+        $('#colorBoxLabelBlack').prop('checked', true);
     }
 }

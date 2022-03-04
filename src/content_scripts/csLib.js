@@ -29,6 +29,9 @@ async function initializeThemeByStorageOnCs() {
             if (theme === 'darkBlue') {
                 href = DARK_BLUE_THEME;
             }
+            else if (theme === 'black') {
+                href = BLACK_THEME;
+            }
             let link = document.createElement('link');
             link.setAttribute('rel', 'stylesheet');
             link.setAttribute('href', href);
@@ -61,6 +64,9 @@ async function syncThemeByStorage() {
             let href = LIGHT_THEME;
             if (theme === 'darkBlue') {
                 href = DARK_BLUE_THEME;
+            }
+            else if (theme === 'black') {
+                href = BLACK_THEME;
             }
             let link = document.getElementById('rootCss');
             link.setAttribute('href', href);

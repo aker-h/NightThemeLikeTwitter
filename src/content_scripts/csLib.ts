@@ -33,6 +33,8 @@ async function initializeThemeByStorageOnCs (): Promise<void> {
 
             if (theme === 'darkBlue') {
                 href = DARK_BLUE_THEME;
+            } else if (theme === 'black') {
+                href = BLACK_THEME;
             }
 
             let link: Element = document.createElement('link');
@@ -76,6 +78,8 @@ async function syncThemeByStorage (): Promise<void> {
 
             if (theme === 'darkBlue') {
                 href = DARK_BLUE_THEME;
+            } else if (theme === 'black') {
+               href = BLACK_THEME;
             }
 
             let link: Element = document.getElementById('rootCss') as Element;
