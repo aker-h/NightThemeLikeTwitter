@@ -1,5 +1,34 @@
 "use strict";
 //非同期関数 (async function)
+async function changeIcon() {
+    let theme = await getThemeFromStorage();
+    let favo = await getFavoColorFromStorage();
+    if (theme !== 'light') {
+        theme = 'dark';
+    }
+    let fileName = `./icons/${theme}_${favo}_32.png`;
+    chrome.action.setIcon({ path: fileName });
+}
+async function getFavoColorFromStorage() {
+    return new Promise((resolve) => {
+        chrome.storage.local.get({
+            favo: 'lightBlue'
+        }, (items) => {
+            let favo = items.favo;
+            resolve(favo);
+        });
+    });
+}
+async function getThemeFromStorage() {
+    return new Promise((resolve) => {
+        chrome.storage.local.get({
+            theme: 'light'
+        }, (items) => {
+            let theme = items.theme;
+            resolve(theme);
+        });
+    });
+}
 async function initializeFavoColorByStorageOnAction() {
     return new Promise((resolve) => {
         chrome.storage.local.get({
@@ -78,6 +107,9 @@ function addClickListenerForFavoColors() {
         change('lightGreen');
         saveFavoColorToStorage('lightGreen');
     });
+    $('.color-circle--label').on('click', () => {
+        changeIcon();
+    });
 }
 function addClickListenerForThemes() {
     async function saveThemeToStorage(value) {
@@ -105,6 +137,9 @@ function addClickListenerForThemes() {
     $('#colorBoxInnerBlack').on('click', () => {
         saveThemeToStorage('black');
         rootCss.setAttribute('href', BLACK_THEME);
+    });
+    $('.color-box--inner').on('click', () => {
+        changeIcon();
     });
 }
 function initializeSelectedColor() {

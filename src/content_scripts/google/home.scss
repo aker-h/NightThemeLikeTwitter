@@ -156,6 +156,10 @@ a.gb_d, span.gb_d {
     background: var(--itemHighlight) !important;
 }
 
+.mus_tt17 {
+    color: var(--textGray) !important;
+}
+
 //最近の検索に関連
 .ynRric {
     color: var(--textGray) !important;
@@ -379,6 +383,10 @@ cite, cite a:link, cite a:visited {
 
 .hMJ0yc {
     color: var(--textGray) !important;
+}
+
+.IsZvec, .GELlw {
+    color: var(--textMainDis) !important;
 }
 
 // 広告のタグ
@@ -613,6 +621,159 @@ cite, cite a:link, cite a:visited {
     color: var(--textMain) !important;
 }
 
+//電卓の埋め込み
+.TIGsTb {
+    border-color: var(--card) !important;
+    background: var(--card) !important;
+
+    &.lqyc1 {
+        border-color: var(--card) !important;
+        background: var(--itemHighlight) !important;
+    }
+
+    & .XH1CIc {
+        color: var(--textMainDis) !important;
+    }
+}
+
+.zRQJhd {
+    background-color: transparent !important;
+}
+
+//電卓ボタン
+.AOvabd, .dxp44d {
+    background: var(--divHighlight) !important;
+    color: var(--textMain) !important;
+    border-color: var(--borderline) !important;
+
+    &:hover {
+        background: var(--divHighlightDouble) !important;
+    }
+}
+
+.MEdqYd, .feqqG {
+    background: transparent !important;
+    color: var(--textMainDis) !important;
+    border-color: var(--borderline) !important;
+
+    &:hover {
+        background: var(--itemHighlight) !important;
+    }
+}
+
+.pno7A.rfUaPd .Tqvz7b, .pno7A.hU1rMc .SwDSDf, .pno7A.hU1rMc .Tqvz7b, .pno7A.rfUaPd .SwDSDf {
+    color: var(--textMainDis) !important;
+}
+
+.UUhRt {
+    background: var(--mainBtn) !important;
+    color: var(--mainBtnTxt) !important;
+    border-color: var(--mainBtn) !important;
+
+    &:hover {
+        background: var(--mainBtnOn) !important;
+    }
+}
+
+//Oxford Languegeの埋め込み
+.c07z9 a, .c07z9 a:active, .c07z9 a:link {
+    color: var(--textMainDis) !important;
+    text-decoration-color: var(--textMainDis) !important;
+}
+
+.c07z9 {
+    color: var(--textMainDis) !important;
+}
+
+//再生ボタン
+.brWULd {
+    & .vfmVQ {
+        border-color: var(--borderline) !important;
+    }
+
+    & .fjnQw, & .nIW5Sd, & .byDyWd {
+        background: var(--favoColor) !important;
+        background-image: none !important;
+    }
+
+    & .fjnQw {
+        mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld2JveD0iMCAwIDIyIDIyIj4KICA8cG9seWdvbiBmaWxsPSIjMUE3M0U4IiBwb2ludHM9IjIuNzUgOC4yNSAyLjc1IDEzLjc1IDYuNDE3IDEzLjc1IDExIDE4LjMzMyAxMSAzLjY2NyA2LjQxNyA4LjI1IiAvPgo8L3N2Zz4K') !important;
+        -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld2JveD0iMCAwIDIyIDIyIj4KICA8cG9seWdvbiBmaWxsPSIjMUE3M0U4IiBwb2ludHM9IjIuNzUgOC4yNSAyLjc1IDEzLjc1IDYuNDE3IDEzLjc1IDExIDE4LjMzMyAxMSAzLjY2NyA2LjQxNyA4LjI1IiAvPgo8L3N2Zz4K') !important;
+    }
+
+    & .nIW5Sd {
+        mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld2JveD0iMCAwIDIyIDIyIj4KICA8cGF0aCBkPSJNMTUuMTI1LDExIEMxNS4xMjUsOS4zNzc1IDE0LjE5LDcuOTg0MTY2NjcgMTIuODMzMzMzMyw3LjMwNTgzMzMzIEwxMi44MzMzMzMzLDE0LjY4NSBDMTQuMTksMTQuMDE1ODMzMyAxNS4xMjUsMTIuNjIyNSAxNS4xMjUsMTEgWiIgZmlsbD0iIzFBNzNFOCIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4K') !important;
+        -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld2JveD0iMCAwIDIyIDIyIj4KICA8cGF0aCBkPSJNMTUuMTI1LDExIEMxNS4xMjUsOS4zNzc1IDE0LjE5LDcuOTg0MTY2NjcgMTIuODMzMzMzMyw3LjMwNTgzMzMzIEwxMi44MzMzMzMzLDE0LjY4NSBDMTQuMTksMTQuMDE1ODMzMyAxNS4xMjUsMTIuNjIyNSAxNS4xMjUsMTEgWiIgZmlsbD0iIzFBNzNFOCIgZmlsbC1ydWxlPSJldmVub2RkIiAvPgo8L3N2Zz4K') !important;
+    }
+
+    & .byDyWd {
+        mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld2JveD0iMCAwIDIyIDIyIj4KICA8cGF0aCBkPSJNMTIuODMzMzMzMywyLjk2MDgzMzMzIEwxMi44MzMzMzMzLDQuODQ5MTY2NjcgQzE1LjQ4MjUsNS42Mzc1IDE3LjQxNjY2NjcsOC4wOTQxNjY2NyAxNy40MTY2NjY3LDExIEMxNy40MTY2NjY3LDEzLjkwNTgzMzMgMTUuNDgyNSwxNi4zNjI1IDEyLjgzMzMzMzMsMTcuMTUwODMzMyBMMTIuODMzMzMzMywxOS4wMzkxNjY3IEMxNi41MDkxNjY3LDE4LjIwNSAxOS4yNSwxNC45MjMzMzMzIDE5LjI1LDExIEMxOS4yNSw3LjA3NjY2NjY3IDE2LjUwOTE2NjcsMy43OTUgMTIuODMzMzMzMywyLjk2MDgzMzMzIFoiIGZpbGw9IiMxQTczRTgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+Cg==') !important;
+        -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld2JveD0iMCAwIDIyIDIyIj4KICA8cGF0aCBkPSJNMTIuODMzMzMzMywyLjk2MDgzMzMzIEwxMi44MzMzMzMzLDQuODQ5MTY2NjcgQzE1LjQ4MjUsNS42Mzc1IDE3LjQxNjY2NjcsOC4wOTQxNjY2NyAxNy40MTY2NjY3LDExIEMxNy40MTY2NjY3LDEzLjkwNTgzMzMgMTUuNDgyNSwxNi4zNjI1IDEyLjgzMzMzMzMsMTcuMTUwODMzMyBMMTIuODMzMzMzMywxOS4wMzkxNjY3IEMxNi41MDkxNjY3LDE4LjIwNSAxOS4yNSwxNC45MjMzMzMzIDE5LjI1LDExIEMxOS4yNSw3LjA3NjY2NjY3IDE2LjUwOTE2NjcsMy43OTUgMTIuODMzMzMzMywyLjk2MDgzMzMzIFoiIGZpbGw9IiMxQTczRTgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgLz4KPC9zdmc+Cg==') !important;
+    }
+
+    &:hover {
+        background-color: var(--itemHighlight) !important;
+    }
+}
+
+.c8d6zd {
+    color: var(--textMain) !important;
+}
+
+.mfsgsd, .ubHt5c, html .vk_gy {
+    color: var(--textMainDis) !important;
+}
+
+//言語を選択ボタン
+.X61Xb {
+    & .TVSh {
+        background: transparent !important;
+
+        &:hover {
+            background: var(--itemHighlight) !important;
+        }
+    }
+
+    & .LiOdre {
+        border-color: var(--borderline) !important;
+    }
+
+    & option {
+        background: var(--card) !important;
+        color: var(--textMain) !important;
+    }
+}
+
+.cfBJGe {
+    color: var(--tLightBlue) !important;
+}
+
+//フィードバック
+a.oBa0Fe {
+    color: var(--textGray) !important;
+}
+
+//ショッピングの埋め込み
+.ULSxyf {
+    & .vZFyxc {
+        background: transparent !important;
+    }
+
+    & .B3iKkd {
+        border-top-color: var(--borderline) !important;
+    }
+
+    & .f3LoEf {
+        color: var(--textMain) !important;
+        text-decoration: none;
+        text-decoration-color: var(--textMain) !important;
+
+        &:hover {
+            text-decoration: underline;            
+        }
+    }    
+}
+
 //右ペイン
 .TQc1id .I6TXqe {
     border: 1px solid var(--card) !important;
@@ -652,6 +813,54 @@ cite, cite a:link, cite a:visited {
             background-color: var(--subBtnOn) !important;
         }
     }
+
+    & .rIbAWc {
+        height: 36px !important;
+
+        &:hover {
+            border-radius: 50%;
+        }
+    }
+
+    & .YIMUJb {
+        &[aria-label="高く評価"] {
+            fill: var(--tLightGreen) !important;
+        }
+
+        &[aria-label="低く評価"] {
+            fill: var(--tPink) !important;
+        }
+    }
+
+    & .Ss2Faf a {
+        color: var(--textMain) !important;
+    }
+
+    & .rl_item_base {
+        background-color: transparent !important;
+        border-color: var(--borderline) !important;
+    }
+
+    & .rl_item_base .title {
+        color: var(--textMain) !important;
+    }
+
+    & .Eegi6c {
+        color: var(--textMain) !important;
+    }
+
+    & .scrt .YMAGHf {
+        border-bottom-color: var(--borderline) !important;
+    }
+
+    .scrt td {
+        border-bottom-color: var(--borderline) !important;
+    }
+
+    & .BfIAp {
+        border-color: var(--borderline) !important;
+        fill: var(--textGray) !important;
+    }
 }
 
 //ナレッジパネルの認証を受ける
@@ -685,6 +894,32 @@ cite, cite a:link, cite a:visited {
 .uo4vr {
     color: var(--textGray) !important;
 }
+
+//こちらを検索しますか
+#rhs block-component {
+    & .dG2XIf {
+        border-color: var(--card) !important;
+        background: var(--card) !important;
+    }
+
+    & .nGydZ .garHBe {
+        color: var(--textGray) !important;
+    }
+
+    & .y8Jpof.pPLc9e.kpQuGf {
+        border-color: var(--borderline) !important;
+    }
+
+    & .k4DMHe .xXEKkb {
+        color: var(--textMain) !important;
+    }
+
+    .y8Jpof:hover {
+    background-color: var(--cardHighlight) !important;
+    }
+}
+
+
 
 //ツイッターとかのカード
 .zf84ud.THG0oc.cv2VAd {
@@ -1086,4 +1321,154 @@ a.Ui8XNb, .uquUgf a {
         background-color: var(--cardHighlight) !important;
         border-color: var(--borderline) !important;
     }
+}
+
+//検索結果 ショッピング
+
+.sh-dtt__top-tools {
+    color: var(--textGray) !important;
+}
+
+//左ペイン
+.pZMdO .sh-dr__restricts {
+    & .CV7Lzb {
+        color: var(--textGray) !important;
+    }
+
+    & .sh-dr__g {
+        border-color: var(--card) !important;
+        background: var(--card) !important;
+    }
+
+    & .ELcVZ {
+        color: var(--textMain) !important;
+    }
+
+    & .nZbkuc .Kmfmkc {
+        background-color: var(--favoColor) !important;
+    }
+
+    & .nZbkuc.OCCxVb {
+        border-color: var(--favoColor) !important;
+    }
+
+    & .le3xUb {
+        background: var(--favoColor) !important;
+        mask-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuNTkgMTEuNThMMTEuNTkgMi41OEMxMS45NSAyLjIyIDEyLjQ1IDIgMTMgMkgyMEMyMS4xIDIgMjIgMi45IDIyIDRWMTFDMjIgMTEuNTUgMjEuNzggMTIuMDUgMjEuNDEgMTIuNDJMMTIuNDEgMjEuNDJDMTIuMDUgMjEuNzggMTEuNTUgMjIgMTEgMjJDMTAuNDUgMjIgOS45NSAyMS43OCA5LjU5IDIxLjQxTDIuNTkgMTQuNDFDMi4yMiAxNC4wNSAyIDEzLjU1IDIgMTNDMiAxMi40NSAyLjIzIDExLjk0IDIuNTkgMTEuNThaTTExIDIwLjAxTDIwIDExVjRIMTNWMy45OUw0IDEyLjk5TDExIDIwLjAxVjIwLjAxWk0xNiA2LjVDMTYgNy4zMyAxNi42NyA4IDE3LjUgOEMxOC4zMyA4IDE5IDcuMzMgMTkgNi41QzE5IDUuNjcgMTguMzMgNSAxNy41IDVDMTYuNjcgNSAxNiA1LjY3IDE2IDYuNVoiIGZpbGw9IiMxQTczRTgiLz4KPC9zdmc+Cg==') !important;
+        mask-repeat: no-repeat !important;
+        mask-size: 18px !important;
+        -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuNTkgMTEuNThMMTEuNTkgMi41OEMxMS45NSAyLjIyIDEyLjQ1IDIgMTMgMkgyMEMyMS4xIDIgMjIgMi45IDIyIDRWMTFDMjIgMTEuNTUgMjEuNzggMTIuMDUgMjEuNDEgMTIuNDJMMTIuNDEgMjEuNDJDMTIuMDUgMjEuNzggMTEuNTUgMjIgMTEgMjJDMTAuNDUgMjIgOS45NSAyMS43OCA5LjU5IDIxLjQxTDIuNTkgMTQuNDFDMi4yMiAxNC4wNSAyIDEzLjU1IDIgMTNDMiAxMi40NSAyLjIzIDExLjk0IDIuNTkgMTEuNThaTTExIDIwLjAxTDIwIDExVjRIMTNWMy45OUw0IDEyLjk5TDExIDIwLjAxVjIwLjAxWk0xNiA2LjVDMTYgNy4zMyAxNi42NyA4IDE3LjUgOEMxOC4zMyA4IDE5IDcuMzMgMTkgNi41QzE5IDUuNjcgMTguMzMgNSAxNy41IDVDMTYuNjcgNSAxNiA1LjY3IDE2IDYuNVoiIGZpbGw9IiMxQTczRTgiLz4KPC9zdmc+Cg==') !important;
+        -webkit-mask-repeat: no-repeat !important;
+        -webkit-mask-size: 18px !important;
+    }
+
+    & .vjtvke, .vjtvke:link, & .vjtvke:visited {
+        color: var(--textMainDis) !important;
+    }
+
+    & .JcqPK {
+        border-color: var(--textGray) !important;
+
+        &.FS9Ovd {
+            border-color: var(--favoColor) !important;
+        }
+
+        .Kmfmkc {
+            background: var(--favoColor) !important;
+        }
+    }
+}
+
+.IxCT4b {
+    border-top-color: var(--borderline) !important;
+}
+
+.dkw61e {
+    background-color: var(--wallpaper) !important;
+}
+
+.MPFake {
+    background: var(--textMain) !important;
+    mask-image: url('https://www.google.com/images/nav_logo321.webp') !important;
+    mask-repeat: no-repeat !important;
+    mask-position: -107px -99px !important;
+    -webkit-mask-image: url('https://www.google.com/images/nav_logo321.webp') !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position: -107px -99px !important;
+}
+
+.sh-sp__pswtr a.sh-sp__btn {
+    color: var(--textGray) !important;
+}
+
+.i0X6df {
+    background-color: transparent !important;
+    border-color: var(--borderline) !important;
+}
+
+.Lq5OHe, .Lq5OHe:link, .Lq5OHe:visited {
+    color: var(--textMain) !important;
+}
+
+.zLPF4b {
+    border-top-color: var(--borderline) !important;
+}
+
+.a8Pemb {
+    color: var(--textMain) !important;
+}
+
+.qNPOEc, .LGq5Zc, .tD1ls, .hahPbb, .VSRd1d {
+    color: var(--textGray) !important;
+}
+
+.aULzUe {
+    color: var(--tLightBlue) !important;
+}
+
+.XrAfOe, .bONr3b {
+    color: var(--textGray) !important;
+}
+
+html .iXEZD {
+    color: var(--tLightBlue) !important;
+
+    &:link, &:visited {
+        color: var(--tLightBlue) !important;
+    }
+}
+
+.Ib8pOd {
+    background-color: var(--tLightGreenBg) !important;
+    color: var(--tLightGreen) !important;
+    border: 1px solid var(--tLightGreen) !important;
+}
+
+.VEbNnc {
+    color: var(--textMain) !important;
+}
+
+.KZmu8e {
+    border: 1px solid var(--borderline) !important;
+    background: transparent !important;
+
+    & .sh-np__product-title {
+        color: var(--tLightBlue) !important;
+    }
+
+    & .T14wmb {
+        color: var(--textMain) !important;
+    }
+
+    & .sh-np__seller-container {
+        color: var(--tLightBlue) !important;
+    }
+
+    & .U6puSd {
+        color: var(--textGray) !important;
+    }
+}
+
+.sh-sr__shop-result-group:last-of-type {
+    border-bottom-color: var(--borderline) !important;
 }

@@ -13,5 +13,6 @@
 //DOM構成後
 $(() => {
     changeGoooooooooogle();
+
     return;
 });

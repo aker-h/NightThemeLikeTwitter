@@ -12,8 +12,11 @@ const VOID_PROMISE: Promise<void> = new Promise((resolve) => {resolve()});
 
 const SRC_ACTION_LIB: string = 'action/script/actionLib.js';
 const SRC_ACTION_ONLOAD: string = 'action/script/actionOnload.js';
+const SRC_ACTION_ONMESSAGE: string = 'action/script/actionOnMessage.js';
 
 const SRC_CS_LIB: string  = 'content_scripts/csLib.js';
+const SRC_CS_ONLOAD: string = 'content_script/csOnload.js';
+const SRC_CS_ONMESSAGE: string = 'content_script/csOnMessage.js';
 
 const SRC_GOOGLE_LIB: string = 'content_script/google/googleLib.js';
 const SRC_GOOGLE_ONLOAD: string = 'content_script/google/googleOnload.js'

@@ -2,6 +2,7 @@
 (async () => {
     initializeThemeByStorageOnAction();
     initializeFavoColorByStorageOnAction();
+    changeIcon();
     return VOID_PROMISE;
 })();
 

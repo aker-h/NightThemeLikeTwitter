@@ -1,5 +1,9 @@
 "use strict";
 //非同期関数 (async function)
+async function changeIconOnLaunchedBrowser() {
+    chrome.runtime.sendMessage({ text: 'changeIcon', target: 'background' }, () => { });
+}
+;
 async function initializeFavoColorByStorageOnCs() {
     return new Promise((resolve) => {
         chrome.storage.local.get({

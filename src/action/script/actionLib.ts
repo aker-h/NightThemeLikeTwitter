@@ -1,4 +1,41 @@
 //非同期関数 (async function)
+async function changeIcon (): Promise<void> {
+    let theme: string = await getThemeFromStorage();
+    let favo: string = await getFavoColorFromStorage();
+
+    if (theme !== 'light') {
+        theme = 'dark';
+    }
+
+    let fileName = `./icons/${theme}_${favo}_32.png`;
+
+    chrome.action.setIcon({path: fileName});
+}
+
+async function getFavoColorFromStorage (): Promise<string> {
+    return new Promise ((resolve) => {
+        chrome.storage.local.get({
+            favo: 'lightBlue'
+        }, (items: any) => {
+            let favo: any = items.favo;
+
+            resolve(favo);
+        });
+    });
+}
+
+async function getThemeFromStorage (): Promise<string> {
+    return new Promise ((resolve) => {
+        chrome.storage.local.get({
+            theme: 'light'
+        }, (items: any) => {
+            let theme: any = items.theme;
+
+            resolve(theme);
+        });
+    });
+}
+
 async function initializeFavoColorByStorageOnAction (): Promise<void> {
     return new Promise((resolve) => {
         chrome.storage.local.get ({
@@ -95,6 +132,10 @@ function addClickListenerForFavoColors (): void {
         change('lightGreen');
         saveFavoColorToStorage('lightGreen');
     });
+
+    $('.color-circle--label').on('click', () => {
+        changeIcon();
+    });
 }
 
 function addClickListenerForThemes (): void {
@@ -128,6 +169,10 @@ function addClickListenerForThemes (): void {
     $('#colorBoxInnerBlack').on('click', () => {
         saveThemeToStorage('black');
         rootCss.setAttribute('href', BLACK_THEME);
+    });
+
+    $('.color-box--inner').on('click', () => {
+        changeIcon();
     });
 }
 

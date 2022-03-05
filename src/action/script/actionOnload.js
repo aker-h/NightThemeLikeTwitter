@@ -3,6 +3,7 @@
 (async () => {
     initializeThemeByStorageOnAction();
     initializeFavoColorByStorageOnAction();
+    changeIcon();
     return VOID_PROMISE;
 })();
 //DOM構成後
