@@ -9,5 +9,5 @@
 
     aboutSearchBox();
 
-    return PROMISE;
+    return VOID_PROMISE;
 })();

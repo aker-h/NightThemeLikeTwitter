@@ -895,6 +895,69 @@ a.oBa0Fe {
     color: var(--textGray) !important;
 }
 
+//広告ショッピング
+.cu-container {
+    & .mnr-c {
+        background-color: var(--card) !important;
+        border-color: var(--card) !important;
+    }
+
+    & .MXl0lf::after {
+        width: 336px !important;
+    }
+}
+
+.e10twf {
+    color: var(--textGray) !important;
+}
+
+.zPEcBd {
+    color: var(--textMain) !important;
+}
+
+.pla-extensions-container {
+    color: var(--textGray) !important;
+}
+
+.cYBBsb {
+    color: var(--textGray) !important;
+}
+
+.pla-hovercard-container {
+    background: var(--card) !important;
+    border-color: var(--card) !important;
+    box-shadow: var(--shadow) !important;
+}
+
+.qptdjc {
+    color: var(--textGray) !important;
+}
+
+.uhLbob {
+    color: var(--textGray) !important;
+}
+
+.g.VKSuxe.LdyFY, .T98FId {
+    border: 0px solid transparent !important;
+    background: transparent !important;
+}
+
+.cv2VAd {
+    border-color: var(--borderline) !important;
+}
+
+g-inner-card {
+    background-color: transparent !important;
+}
+
+.cI6Ayb .GJfQob {
+    color: var(--textMain) !important;
+}
+
+.z235y {
+    color: var(--textGray) !important;
+}
+
 //こちらを検索しますか
 #rhs block-component {
     & .dG2XIf {
@@ -1323,8 +1386,62 @@ a.Ui8XNb, .uquUgf a {
     }
 }
 
-//検索結果 ショッピング
+//広告
+.Rn1jbe.hieTTe {
+    border-color: transparent !important;
+    background: transparent !important;
+}
 
+.vRPqZd {
+    color: var(--textGray) !important;
+}
+
+.c76k3e {
+    color: var(--textMain) !important;
+}
+
+.J0LdHf .G0w7Q {
+    color: var(--textGray) !important;
+}
+
+.J0LdHf .Is2lAe {
+    background-color: transparent !important;
+    border: 1px solid var(--borderline) !important;
+    color: var(--textGray) !important;
+
+    &:hover {
+        background: var(--itemHighlight) !important;
+    }
+}
+
+.jCaeMe {
+    background: transparent !important;
+    border-color: var(--borderline) !important;
+}
+
+.iKMEte {
+    color: var(--textMain) !important;
+}
+
+.t3Ss7 {
+    color: var(--textGray) !important;
+}
+
+.nLaBQd {
+    color: var(--textMainDis) !important;
+}
+
+.xTWJnd {
+    color: var(--textGray) !important;
+}
+
+.fiEaaf {
+    background: var(--wallpaper) !important;
+    border: 1px solid var(--borderline) !important;
+    box-shadow: var(--shadow) !important;
+}
+
+//検索結果 ショッピング
 .sh-dtt__top-tools {
     color: var(--textGray) !important;
 }
@@ -1471,4 +1588,35 @@ html .iXEZD {
 
 .sh-sr__shop-result-group:last-of-type {
     border-bottom-color: var(--borderline) !important;
+}
+
+//検索結果 書籍
+.dyjrff {
+    color: var(--textMainDis) !important;
+}
+
+.ETWPw {
+    border-color: var(--borderline) !important;
+}
+
+.VNSPub {
+    color: var(--textGray) !important;
+}
+
+.cmlJmd {
+    color: var(--textMainDis) !important;
+}
+
+//プレビューボタン
+.VvrH3b {
+    border-color: var(--subBtn) !important;
+    background: var(--subBtn) !important;
+
+    &:hover {
+        background: var(--subBtnOn) !important;
+    }
+
+    & .x9emld {
+        color: var(--subBtnTxt) !important;
+    }
 }

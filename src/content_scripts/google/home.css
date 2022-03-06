@@ -829,6 +829,67 @@ a.oBa0Fe {
   color: var(--textGray) !important;
 }
 
+.cu-container .mnr-c {
+  background-color: var(--card) !important;
+  border-color: var(--card) !important;
+}
+
+.cu-container .MXl0lf::after {
+  width: 336px !important;
+}
+
+.e10twf {
+  color: var(--textGray) !important;
+}
+
+.zPEcBd {
+  color: var(--textMain) !important;
+}
+
+.pla-extensions-container {
+  color: var(--textGray) !important;
+}
+
+.cYBBsb {
+  color: var(--textGray) !important;
+}
+
+.pla-hovercard-container {
+  background: var(--card) !important;
+  border-color: var(--card) !important;
+  -webkit-box-shadow: var(--shadow) !important;
+          box-shadow: var(--shadow) !important;
+}
+
+.qptdjc {
+  color: var(--textGray) !important;
+}
+
+.uhLbob {
+  color: var(--textGray) !important;
+}
+
+.g.VKSuxe.LdyFY, .T98FId {
+  border: 0px solid transparent !important;
+  background: transparent !important;
+}
+
+.cv2VAd {
+  border-color: var(--borderline) !important;
+}
+
+g-inner-card {
+  background-color: transparent !important;
+}
+
+.cI6Ayb .GJfQob {
+  color: var(--textMain) !important;
+}
+
+.z235y {
+  color: var(--textGray) !important;
+}
+
 #rhs block-component .dG2XIf {
   border-color: var(--card) !important;
   background: var(--card) !important;
@@ -1197,6 +1258,61 @@ a.Ui8XNb, .uquUgf a {
   border-color: var(--borderline) !important;
 }
 
+.Rn1jbe.hieTTe {
+  border-color: transparent !important;
+  background: transparent !important;
+}
+
+.vRPqZd {
+  color: var(--textGray) !important;
+}
+
+.c76k3e {
+  color: var(--textMain) !important;
+}
+
+.J0LdHf .G0w7Q {
+  color: var(--textGray) !important;
+}
+
+.J0LdHf .Is2lAe {
+  background-color: transparent !important;
+  border: 1px solid var(--borderline) !important;
+  color: var(--textGray) !important;
+}
+
+.J0LdHf .Is2lAe:hover {
+  background: var(--itemHighlight) !important;
+}
+
+.jCaeMe {
+  background: transparent !important;
+  border-color: var(--borderline) !important;
+}
+
+.iKMEte {
+  color: var(--textMain) !important;
+}
+
+.t3Ss7 {
+  color: var(--textGray) !important;
+}
+
+.nLaBQd {
+  color: var(--textMainDis) !important;
+}
+
+.xTWJnd {
+  color: var(--textGray) !important;
+}
+
+.fiEaaf {
+  background: var(--wallpaper) !important;
+  border: 1px solid var(--borderline) !important;
+  -webkit-box-shadow: var(--shadow) !important;
+          box-shadow: var(--shadow) !important;
+}
+
 .sh-dtt__top-tools {
   color: var(--textGray) !important;
 }
@@ -1340,4 +1456,33 @@ html .iXEZD:link, html .iXEZD:visited {
 
 .sh-sr__shop-result-group:last-of-type {
   border-bottom-color: var(--borderline) !important;
+}
+
+.dyjrff {
+  color: var(--textMainDis) !important;
+}
+
+.ETWPw {
+  border-color: var(--borderline) !important;
+}
+
+.VNSPub {
+  color: var(--textGray) !important;
+}
+
+.cmlJmd {
+  color: var(--textMainDis) !important;
+}
+
+.VvrH3b {
+  border-color: var(--subBtn) !important;
+  background: var(--subBtn) !important;
+}
+
+.VvrH3b:hover {
+  background: var(--subBtnOn) !important;
+}
+
+.VvrH3b .x9emld {
+  color: var(--subBtnTxt) !important;
 }

@@ -31,9 +31,7 @@
             "src/content_scripts/csLib.js",
             "src/content_scripts/csOnload.js"
         ],
-        "css": [
-            "src/content_scripts/google/home.css"
-        ],
+        "css": [],
         "all_frames": true,
         "run_at": "document_start"
     },{
