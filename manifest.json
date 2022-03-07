@@ -41,13 +41,8 @@
         ],
         "exclude_matches":[],
         "js":[
-            "js/jquery-3.6.0.min.js",
-            "src/js/enums.js",
-            "src/js/lib.js",
-            "src/content_scripts/csLib.js",
             "src/content_scripts/google/googleLib.js",
-            "src/content_scripts/google/googleOnload.js",
-            "src/content_scripts/csOnchange.js"
+            "src/content_scripts/google/googleOnload.js"
         ],
         "css": [
             "src/content_scripts/google/home.css"
@@ -60,9 +55,6 @@
             "https://outlook.office.com/mail/*"
         ],
         "js": [
-            "js/jquery-3.6.0.min.js",
-            "src/js/enums.js",
-            "src/js/lib.js",
             "content_scripts/outlook/outlookLib.js",
             "content_scripts/outlook/outlookOnload.js"
         ],

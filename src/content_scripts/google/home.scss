@@ -291,6 +291,12 @@ a.EzVRq, button.EzVRq {
     }
 }
 
+.hdtb-tl-sel {
+    box-shadow: none !important;
+    background: var(--card) !important;
+    border-color: var(--favoColor) !important;
+}
+
 .GLcBOb {
     border-bottom: 1px solid var(--borderline) !important;
 }
@@ -479,8 +485,8 @@ cite, cite a:link, cite a:visited {
     &::after {
         content: "";
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: -1px;
+        left: -1px;
         width: 300px;
         height: 36px;
         border-radius: 18px;
@@ -774,6 +780,30 @@ a.oBa0Fe {
     }    
 }
 
+//地図の埋め込み
+.dbg0pd {
+    color: var(--textMain) !important;
+}
+
+.cXedhc {
+    color: var(--textGray) !important;
+}
+
+//ルートボタン
+.VByer .TU05kd {
+    background: var(--textGray) !important;
+    mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAElBMVEVHcEwac+gac+gac+gac+gac+gtu67uAAAABnRSTlMAV+n+gxT6zFvXAAAAlElEQVR4AWKAAyFFQNn0doIwDABQtIUOIGQEJ7AZQfx3/2ksePEgyefl5AnZlrHPeVvimPOxwomC10BBFERBFERBdIEo+ETBA7Xihg4xGixGg6/vStHguxgdTRQvehebPs9ftNE8m148uupe7PA9yhCDHb4Y7JrF4P89QS8CoiAKoiAKrhREQRREQRREV7h+hOXLfACI4EsohCj6BwAAAABJRU5ErkJggg==") !important;
+    mask-repeat: no-repeat !important;
+    mask-size: 20px !important;
+    -webkit-mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAElBMVEVHcEwac+gac+gac+gac+gac+gtu67uAAAABnRSTlMAV+n+gxT6zFvXAAAAlElEQVR4AWKAAyFFQNn0doIwDABQtIUOIGQEJ7AZQfx3/2ksePEgyefl5AnZlrHPeVvimPOxwomC10BBFERBFERBdIEo+ETBA7Xihg4xGixGg6/vStHguxgdTRQvehebPs9ftNE8m148uupe7PA9yhCDHb4Y7JrF4P89QS8CoiAKoiAKrhREQRREQRREV7h+hOXLfACI4EsohCj6BwAAAABJRU5ErkJggg==") !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-size: 20px !important;
+}
+
+.wYWDAd {
+    border-top-color: var(--borderline) !important;
+}
+
 //右ペイン
 .TQc1id .I6TXqe {
     border: 1px solid var(--card) !important;
@@ -860,6 +890,10 @@ a.oBa0Fe {
     & .BfIAp {
         border-color: var(--borderline) !important;
         fill: var(--textGray) !important;
+    }
+
+    & a.CjB7Ub {
+        color: var(--tWhite) !important;
     }
 }
 
@@ -1253,6 +1287,32 @@ a.Ui8XNb, .uquUgf a {
             color: var(--textGray) !important;
         }
     }
+}
+
+//ツールボタンを押したときにでるやつ
+.hdtb-mn-hd {
+    color: var(--textGray) !important;
+}
+
+.nvELY {
+    background-image: none !important;
+
+    & .y0fQ9c::before {
+        content: "" !important;
+        position: absolute !important;
+        background: var(--textGray) !important;
+        mask-image: url("https://ssl.gstatic.com/ui/v1/menu/checkmark.png") !important;
+        mask-repeat: no-repeat !important;
+        -webkit-mask-image: url("https://ssl.gstatic.com/ui/v1/menu/checkmark.png") !important;
+        -webkit-mask-repeat: no-repeat !important;
+        width: 21px !important;
+        height: 21px !important;
+        left: 5px !important;
+    }
+}
+
+html .znKVS.OSrXXb.tnhqA a {
+    color: var(--textMain) !important;
 }
 
 .cEPPT {
